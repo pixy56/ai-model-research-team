@@ -1,0 +1,493 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-04-20",
+  "maintained_by": "AI Model Research Team",
+  "description": "Machine-readable registry of AI model evaluation benchmarks",
+  "benchmarks": [
+    {
+      "id": "mmlu",
+      "name": "MMLU",
+      "full_name": "Massive Multitask Language Understanding",
+      "category": "core",
+      "subcategory": "knowledge",
+      "first_introduced": 2020,
+      "maintained_by": "UC Berkeley, OpenAI",
+      "description": "57 tasks covering STEM, humanities, social sciences, and professional subjects",
+      "metric": "accuracy",
+      "metric_unit": "percentage",
+      "dataset_size": 15908,
+      "num_tasks": 57,
+      "difficulty": "high_school_to_professional",
+      "languages": ["en"],
+      "modalities": ["text"],
+      "source_url": "https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu",
+      "paper_url": "https://arxiv.org/abs/2009.03300",
+      "dataset_url": "https://huggingface.co/datasets/cais/mmlu",
+      "score_ranges": {
+        "random": 25,
+        "basic_min": 40,
+        "basic_max": 60,
+        "competent_min": 60,
+        "competent_max": 80,
+        "expert_min": 80,
+        "expert_max": 90,
+        "sota_threshold": 90
+      },
+      "current_leader": {
+        "model": "o3-mini (high)",
+        "score": 92.4,
+        "date": "2025-01"
+      },
+      "categories_tested": [
+        "STEM",
+        "Humanities",
+        "Social Sciences",
+        "Professional"
+      ]
+    },
+    {
+      "id": "humaneval",
+      "name": "HumanEval",
+      "full_name": "Human Evaluation of Code Generation",
+      "category": "code",
+      "subcategory": "function_completion",
+      "first_introduced": 2021,
+      "maintained_by": "OpenAI",
+      "description": "Code generation benchmark with 164 programming problems testing functional correctness",
+      "metric": "pass_at_k",
+      "metric_unit": "percentage",
+      "dataset_size": 164,
+      "num_tasks": 164,
+      "difficulty": "varied",
+      "languages": ["python"],
+      "modalities": ["text"],
+      "source_url": "https://github.com/openai/human-eval",
+      "paper_url": "https://arxiv.org/abs/2107.03374",
+      "dataset_url": "https://github.com/openai/human-eval",
+      "score_ranges": {
+        "random": 0,
+        "basic_min": 30,
+        "basic_max": 50,
+        "competent_min": 50,
+        "competent_max": 70,
+        "expert_min": 70,
+        "expert_max": 85,
+        "sota_threshold": 85
+      },
+      "current_leader": {
+        "model": "Claude 3.7 Sonnet",
+        "score": 92.0,
+        "date": "2025-02"
+      },
+      "categories_tested": [
+        "Algorithms",
+        "String Processing",
+        "Data Structures",
+        "Mathematics",
+        "Logic"
+      ]
+    },
+    {
+      "id": "gpqa",
+      "name": "GPQA",
+      "full_name": "Graduate-Level Google-Proof Q&A",
+      "category": "reasoning",
+      "subcategory": "expert_qa",
+      "first_introduced": 2023,
+      "maintained_by": "NYU, Meta AI",
+      "description": "Graduate-level science questions requiring deep expertise in biology, chemistry, and physics",
+      "metric": "accuracy",
+      "metric_unit": "percentage",
+      "dataset_size": 1670,
+      "num_tasks": 1670,
+      "difficulty": "graduate",
+      "languages": ["en"],
+      "modalities": ["text"],
+      "variants": ["gpqa_diamond", "gpqa_extended", "gpqa_main"],
+      "source_url": "https://github.com/idavidrein/gpqa",
+      "paper_url": "https://arxiv.org/abs/2311.12022",
+      "dataset_url": "https://huggingface.co/datasets/Idavidrein/gpqa",
+      "score_ranges": {
+        "random": 25,
+        "basic_min": 30,
+        "basic_max": 40,
+        "competent_min": 40,
+        "competent_max": 60,
+        "expert_min": 60,
+        "expert_max": 80,
+        "sota_threshold": 80
+      },
+      "current_leader": {
+        "model": "o3-mini (high)",
+        "score": 86.0,
+        "date": "2025-01",
+        "variant": "gpqa_diamond"
+      },
+      "categories_tested": [
+        "Biology",
+        "Chemistry",
+        "Physics"
+      ]
+    },
+    {
+      "id": "math",
+      "name": "MATH",
+      "full_name": "Mathematics Aptitude Test of Heuristics",
+      "category": "reasoning",
+      "subcategory": "mathematics",
+      "first_introduced": 2021,
+      "maintained_by": "UC Berkeley, OpenAI",
+      "description": "Competition mathematics problems from AMC, AIME, and Olympiads",
+      "metric": "accuracy",
+      "metric_unit": "percentage",
+      "dataset_size": 12500,
+      "num_tasks": 12500,
+      "difficulty": "competition",
+      "languages": ["en"],
+      "modalities": ["text"],
+      "source_url": "https://huggingface.co/datasets/hendrycks/competition_math",
+      "paper_url": "https://arxiv.org/abs/2103.03874",
+      "dataset_url": "https://huggingface.co/datasets/hendrycks/competition_math",
+      "score_ranges": {
+        "random": 0,
+        "basic_min": 20,
+        "basic_max": 40,
+        "competent_min": 40,
+        "competent_max": 60,
+        "expert_min": 60,
+        "expert_max": 80,
+        "sota_threshold": 80
+      },
+      "current_leader": {
+        "model": "o3-mini (high)",
+        "score": 97.3,
+        "date": "2025-01"
+      },
+      "categories_tested": [
+        "Algebra",
+        "Geometry",
+        "Number Theory",
+        "Counting and Probability",
+        "Pre-calculus",
+        "Intermediate Algebra"
+      ]
+    },
+    {
+      "id": "swe-bench",
+      "name": "SWE-bench",
+      "full_name": "Software Engineering Benchmark",
+      "category": "code",
+      "subcategory": "software_engineering",
+      "first_introduced": 2023,
+      "maintained_by": "Princeton NLP Group",
+      "description": "Real-world software engineering tasks from GitHub issues requiring code changes",
+      "metric": "resolution_rate",
+      "metric_unit": "percentage",
+      "dataset_size": 2294,
+      "num_tasks": 2294,
+      "difficulty": "professional",
+      "languages": ["python"],
+      "modalities": ["text"],
+      "variants": ["swe-bench_full", "swe-bench_lite", "swe-bench_verified"],
+      "source_url": "https://www.swebench.com/",
+      "paper_url": "https://arxiv.org/abs/2310.06770",
+      "dataset_url": "https://github.com/princeton-nlp/SWE-bench",
+      "score_ranges": {
+        "random": 0,
+        "basic_min": 5,
+        "basic_max": 15,
+        "competent_min": 15,
+        "competent_max": 30,
+        "expert_min": 30,
+        "expert_max": 50,
+        "sota_threshold": 50
+      },
+      "current_leader": {
+        "model": "Claude 3.7 Sonnet",
+        "score": 62.3,
+        "date": "2025-02",
+        "variant": "swe-bench_verified"
+      },
+      "categories_tested": [
+        "Bug Fixing",
+        "Feature Implementation",
+        "Code Navigation",
+        "Testing",
+        "Version Control"
+      ]
+    },
+    {
+      "id": "mmmu",
+      "name": "MMMU",
+      "full_name": "Massive Multi-discipline Multimodal Understanding",
+      "category": "multimodal",
+      "subcategory": "multimodal_qa",
+      "first_introduced": 2023,
+      "maintained_by": "CMU, Microsoft Research",
+      "description": "College-level multimodal problems requiring vision and language understanding across disciplines",
+      "metric": "accuracy",
+      "metric_unit": "percentage",
+      "dataset_size": 11500,
+      "num_tasks": 11500,
+      "difficulty": "college",
+      "languages": ["en"],
+      "modalities": ["text", "image"],
+      "source_url": "https://mmmu-benchmark.github.io/",
+      "paper_url": "https://arxiv.org/abs/2311.16502",
+      "dataset_url": "https://huggingface.co/datasets/MMMU/MMMU",
+      "score_ranges": {
+        "random": 25,
+        "basic_min": 35,
+        "basic_max": 50,
+        "competent_min": 50,
+        "competent_max": 65,
+        "expert_min": 65,
+        "expert_max": 75,
+        "sota_threshold": 75
+      },
+      "current_leader": {
+        "model": "Gemini 2.0 Pro",
+        "score": 82.4,
+        "date": "2025-02"
+      },
+      "categories_tested": [
+        "Art",
+        "Business",
+        "Health and Medicine",
+        "Science and Technology",
+        "Humanities and Social Science",
+        "Mathematics"
+      ]
+    },
+    {
+      "id": "mmbench",
+      "name": "MMBench",
+      "full_name": "MMBench - Comprehensive Multimodal Evaluation",
+      "category": "multimodal",
+      "subcategory": "comprehensive_evaluation",
+      "first_introduced": 2023,
+      "maintained_by": "OpenCompass, Shanghai AI Lab",
+      "description": "Comprehensive multimodal evaluation with circular testing across 20+ capability dimensions",
+      "metric": "accuracy",
+      "metric_unit": "percentage",
+      "dataset_size": 3000,
+      "num_tasks": 3000,
+      "difficulty": "varied",
+      "languages": ["en"],
+      "modalities": ["text", "image"],
+      "source_url": "https://opencompass.org.cn/mmbench",
+      "paper_url": "https://arxiv.org/abs/2307.06281",
+      "dataset_url": "https://opencompass.org.cn/mmbench",
+      "score_ranges": {
+        "random": 25,
+        "basic_min": 50,
+        "basic_max": 65,
+        "competent_min": 65,
+        "competent_max": 75,
+        "expert_min": 75,
+        "expert_max": 85,
+        "sota_threshold": 85
+      },
+      "current_leader": {
+        "model": "Gemini 2.0 Pro",
+        "score": 89.2,
+        "date": "2025-02"
+      },
+      "categories_tested": [
+        "Perception",
+        "Cognition",
+        "Coherent",
+        "Hallucination"
+      ]
+    },
+    {
+      "id": "arc",
+      "name": "ARC",
+      "full_name": "AI2 Reasoning Challenge",
+      "category": "reasoning",
+      "subcategory": "commonsense",
+      "first_introduced": 2018,
+      "maintained_by": "Allen Institute for AI",
+      "description": "Grade-school science questions requiring scientific reasoning and commonsense knowledge",
+      "metric": "accuracy",
+      "metric_unit": "percentage",
+      "dataset_size": 7787,
+      "num_tasks": 7787,
+      "difficulty": "grade_school",
+      "languages": ["en"],
+      "modalities": ["text"],
+      "variants": ["arc_easy", "arc_challenge"],
+      "source_url": "https://allenai.org/data/arc",
+      "paper_url": "https://arxiv.org/abs/1803.05457",
+      "dataset_url": "https://huggingface.co/datasets/ai2_arc",
+      "score_ranges": {
+        "random": 25,
+        "basic_min": 40,
+        "basic_max": 60,
+        "competent_min": 60,
+        "competent_max": 75,
+        "expert_min": 75,
+        "expert_max": 90,
+        "sota_threshold": 90
+      },
+      "current_leader": {
+        "model": "o3-mini",
+        "score": 97.5,
+        "date": "2025-01",
+        "variant": "arc_challenge"
+      },
+      "categories_tested": [
+        "Biology",
+        "Physics",
+        "Chemistry",
+        "Earth Science",
+        "General Science"
+      ]
+    },
+    {
+      "id": "hellaswag",
+      "name": "HellaSwag",
+      "full_name": "Harder Endings, Longer Contexts, and Lower-level Activities - SWAG",
+      "category": "reasoning",
+      "subcategory": "commonsense_completion",
+      "first_introduced": 2019,
+      "maintained_by": "University of Washington, AI2",
+      "description": "Commonsense reasoning through sentence completion with adversarial examples",
+      "metric": "accuracy",
+      "metric_unit": "percentage",
+      "dataset_size": 39905,
+      "num_tasks": 39905,
+      "difficulty": "varied",
+      "languages": ["en"],
+      "modalities": ["text"],
+      "source_url": "https://rowanzellers.com/hellaswag/",
+      "paper_url": "https://arxiv.org/abs/1905.07830",
+      "dataset_url": "https://huggingface.co/datasets/Rowan/hellaswag",
+      "score_ranges": {
+        "random": 25,
+        "basic_min": 40,
+        "basic_max": 60,
+        "competent_min": 60,
+        "competent_max": 75,
+        "expert_min": 75,
+        "expert_max": 90,
+        "sota_threshold": 90
+      },
+      "current_leader": {
+        "model": "o3-mini",
+        "score": 95.5,
+        "date": "2025-01"
+      },
+      "categories_tested": [
+        "Physical Activities",
+        "Household Chores",
+        "Social Interactions",
+        "Creative Activities",
+        "Outdoor Activities"
+      ],
+      "notes": "Benchmark is considered saturated - models exceed human performance"
+    },
+    {
+      "id": "bbh",
+      "name": "BBH",
+      "full_name": "Big-Bench Hard",
+      "category": "reasoning",
+      "subcategory": "challenging_tasks",
+      "first_introduced": 2022,
+      "maintained_by": "Google Research",
+      "description": "23 challenging tasks from BIG-bench requiring multi-step reasoning",
+      "metric": "accuracy",
+      "metric_unit": "percentage",
+      "dataset_size": 6500,
+      "num_tasks": 23,
+      "difficulty": "challenging",
+      "languages": ["en"],
+      "modalities": ["text"],
+      "source_url": "https://github.com/google/BIG-bench",
+      "paper_url": "https://arxiv.org/abs/2210.09261",
+      "dataset_url": "https://github.com/google/BIG-bench",
+      "score_ranges": {
+        "random": 0,
+        "basic_min": 40,
+        "basic_max": 60,
+        "competent_min": 60,
+        "competent_max": 75,
+        "expert_min": 75,
+        "expert_max": 85,
+        "sota_threshold": 85
+      },
+      "current_leader": {
+        "model": "o3-mini",
+        "score": 92.5,
+        "date": "2025-01"
+      },
+      "categories_tested": [
+        "Logical Reasoning",
+        "Algorithmic Tasks",
+        "Linguistic Tasks",
+        "Commonsense Tasks",
+        "Domain-Specific Tasks"
+      ]
+    },
+    {
+      "id": "gsm8k",
+      "name": "GSM8K",
+      "full_name": "Grade School Math 8K",
+      "category": "reasoning",
+      "subcategory": "mathematics",
+      "first_introduced": 2021,
+      "maintained_by": "OpenAI",
+      "description": "Grade school math word problems requiring 2-8 steps using basic arithmetic",
+      "metric": "accuracy",
+      "metric_unit": "percentage",
+      "dataset_size": 8500,
+      "num_tasks": 8500,
+      "difficulty": "grade_school",
+      "languages": ["en"],
+      "modalities": ["text"],
+      "source_url": "https://github.com/openai/grade-school-math",
+      "paper_url": "https://arxiv.org/abs/2110.14168",
+      "dataset_url": "https://huggingface.co/datasets/openai/gsm8k",
+      "score_ranges": {
+        "random": 0,
+        "basic_min": 40,
+        "basic_max": 70,
+        "competent_min": 70,
+        "competent_max": 85,
+        "expert_min": 85,
+        "expert_max": 95,
+        "sota_threshold": 95
+      },
+      "current_leader": {
+        "model": "o3-mini",
+        "score": 99.2,
+        "date": "2025-01"
+      },
+      "categories_tested": [
+        "Arithmetic",
+        "Word Problems",
+        "Multi-step Problems",
+        "Logic Puzzles"
+      ],
+      "notes": "Benchmark is nearly saturated - top models achieve near-perfect scores"
+    }
+  ],
+  "metadata": {
+    "total_benchmarks": 11,
+    "categories": {
+      "core": 1,
+      "code": 2,
+      "reasoning": 5,
+      "multimodal": 2
+    },
+    "modalities": {
+      "text_only": 8,
+      "multimodal": 2
+    },
+    "validation": {
+      "schema_version": "1.0",
+      "validated": true,
+      "validation_date": "2026-04-20"
+    }
+  }
+}

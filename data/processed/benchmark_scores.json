@@ -1,0 +1,557 @@
+{
+  "extraction_date": "2026-04-20",
+  "source_file": "data/raw/arxiv_papers_2026-04-19.json",
+  "total_papers": 100,
+  "extractions": [
+    {
+      "paper_id": "2604.16280",
+      "benchmark": "XAI Question Bank",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "cturing environment using the XAI Question Bank. Beyond standard questions, w"
+    },
+    {
+      "paper_id": "2604.16275",
+      "benchmark": "PLUM",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "ess Effects on LLMs Using the PLUM Corpus This paper explores th"
+    },
+    {
+      "paper_id": "2604.16275",
+      "benchmark": "PLUM",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "work, we additionally release PLUM (Politeness Levels in Utteran"
+    },
+    {
+      "paper_id": "2604.16259",
+      "benchmark": "MATH",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "and Qwen3-4B-Instruct-2507 on math datasets confirm that sharpen"
+    },
+    {
+      "paper_id": "2604.16256",
+      "benchmark": "CrossMath",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "ly measure this, we introduce CrossMath, a novel multimodal reasoning"
+    },
+    {
+      "paper_id": "2604.16256",
+      "benchmark": "CrossMath",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "this limitation, we curate a CrossMath training set for VLM fine-tun"
+    },
+    {
+      "paper_id": "2604.16256",
+      "benchmark": "CrossMath",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "at https://github.com/xuyige/CrossMath."
+    },
+    {
+      "paper_id": "2604.16242",
+      "benchmark": "MATH",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "reasoning benchmarks spanning math, code, and logical reasoning,"
+    },
+    {
+      "paper_id": "2604.16241",
+      "benchmark": "BAGEL",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "BAGEL: Benchmarking Animal Knowledg"
+    },
+    {
+      "paper_id": "2604.16241",
+      "benchmark": "BAGEL",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "uation protocol. We introduce BAGEL, a benchmark for evaluating a"
+    },
+    {
+      "paper_id": "2604.16241",
+      "benchmark": "BAGEL",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "expertise in language models. BAGEL is constructed from diverse s"
+    },
+    {
+      "paper_id": "2604.16241",
+      "benchmark": "BAGEL",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "ng on closed-book evaluation, BAGEL measures animal-related knowl"
+    },
+    {
+      "paper_id": "2604.16241",
+      "benchmark": "BAGEL",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "retrieval at inference time. BAGEL further supports fine-grained"
+    },
+    {
+      "paper_id": "2604.16158",
+      "benchmark": "MMLU",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "ity. Experiments on GSM8K and MMLU with Llama-3.2-3B-Instruct de"
+    },
+    {
+      "paper_id": "2604.16158",
+      "benchmark": "GSM8K",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "erpretability. Experiments on GSM8K and MMLU with Llama-3.2-3B-In"
+    },
+    {
+      "paper_id": "2604.16116",
+      "benchmark": "ReCoRD",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": ". Across the preserved expert record, all review and supervision r"
+    },
+    {
+      "paper_id": "2604.16116",
+      "benchmark": "ReCoRD",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "heaply deployable, the public record of intellectual labor becomes"
+    },
+    {
+      "paper_id": "2604.16104",
+      "benchmark": "AUROC",
+      "score": 0.97,
+      "metric": "AUROC",
+      "confidence": "medium",
+      "context": "g performance with accuracy up to 0.87, AUROC above 0.97, and macro F1-score of 0.88. Grad-CAM++"
+    },
+    {
+      "paper_id": "2604.16058",
+      "benchmark": "F1",
+      "score": 68.0,
+      "metric": "accuracy",
+      "confidence": "high",
+      "context": "accuracy increases from 70% to 78% on GPTSniffer (F1: 68% to 78%) and from 91% to 94.65% on Whodunit (F1: 9"
+    },
+    {
+      "paper_id": "2604.16058",
+      "benchmark": "F1",
+      "score": 91.0,
+      "metric": "accuracy",
+      "confidence": "high",
+      "context": ": 68% to 78%) and from 91% to 94.65% on Whodunit (F1: 91% to 94.64%). t-SNE visualizations confirm that con"
+    },
+    {
+      "paper_id": "2604.16058",
+      "benchmark": "Accuracy",
+      "score": 70.0,
+      "metric": "accuracy",
+      "confidence": "high",
+      "context": "es substantial improvements over prior baselines: accuracy increases from 70% to 78% on GPTSniffer (F1: 68% to 78%) and from 91"
+    },
+    {
+      "paper_id": "2604.16058",
+      "benchmark": "accuracy",
+      "score": 70.0,
+      "metric": "accuracy",
+      "confidence": "medium",
+      "context": "tial improvements over prior baselines: accuracy increases from 70% to 78% on GPTSniffer (F1: 68% to 78%) a"
+    },
+    {
+      "paper_id": "2604.16058",
+      "benchmark": "F1",
+      "score": 68.0,
+      "metric": "F1",
+      "confidence": "medium",
+      "context": "ncreases from 70% to 78% on GPTSniffer (F1: 68% to 78%) and from 91% to 94.65% on Whod"
+    },
+    {
+      "paper_id": "2604.16058",
+      "benchmark": "F1",
+      "score": 91.0,
+      "metric": "F1",
+      "confidence": "medium",
+      "context": "8%) and from 91% to 94.65% on Whodunit (F1: 91% to 94.64%). t-SNE visualizations confi"
+    },
+    {
+      "paper_id": "2604.16054",
+      "benchmark": "Accuracy",
+      "score": 50.0,
+      "metric": "accuracy",
+      "confidence": "high",
+      "context": "mance with human participants. Humans achieve 80% accuracy, while top performing MLLMs remain below 50%. Error analysis reveals failures in: (i) visual a"
+    },
+    {
+      "paper_id": "2604.16054",
+      "benchmark": "Accuracy",
+      "score": 80.0,
+      "metric": "accuracy",
+      "confidence": "high",
+      "context": "rformance with human participants. Humans achieve 80% accuracy, while top performing MLLMs remain below 50%. Err"
+    },
+    {
+      "paper_id": "2604.16054",
+      "benchmark": "Mind's Eye",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "Mind's Eye: A Benchmark of Visual Abstra"
+    },
+    {
+      "paper_id": "2604.16054",
+      "benchmark": "Mind's Eye",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "ess understood. We introduce \"Mind's Eye\", a multiple-choice benchmark"
+    },
+    {
+      "paper_id": "2604.16054",
+      "benchmark": "accuracy",
+      "score": 80.0,
+      "metric": "accuracy",
+      "confidence": "medium",
+      "context": "with human participants. Humans achieve 80% accuracy, while top performing MLLMs remain belo"
+    },
+    {
+      "paper_id": "2604.16054",
+      "benchmark": "accuracy",
+      "score": 50.0,
+      "metric": "accuracy",
+      "confidence": "medium",
+      "context": "human participants. Humans achieve 80% accuracy, while top performing MLLMs remain below 50%. Error analysis reveals failures in: (i"
+    },
+    {
+      "paper_id": "2604.16037",
+      "benchmark": "Accuracy",
+      "score": 29.8,
+      "metric": "accuracy",
+      "confidence": "high",
+      "context": "y sampled non-canonical tokenisations reduces the accuracy of a canonically trained Llama-1b model by 29.8%. We find that training with stochastic tokenisati"
+    },
+    {
+      "paper_id": "2604.16037",
+      "benchmark": "accuracy",
+      "score": 29.8,
+      "metric": "accuracy",
+      "confidence": "medium",
+      "context": "non-canonical tokenisations reduces the accuracy of a canonically trained Llama-1b model by 29.8%. We find that training with stochastic"
+    },
+    {
+      "paper_id": "2604.16029",
+      "benchmark": "Accuracy",
+      "score": 84.0,
+      "metric": "accuracy",
+      "confidence": "high",
+      "context": "pute budgets - for instance, boosting GPT-OSS-20B accuracy on AIME25 from 84% to nearly 90% under fixed compute budgets. Finall",
+      "model": "GPT-OSS-20B"
+    },
+    {
+      "paper_id": "2604.16029",
+      "benchmark": "accuracy",
+      "score": 84.0,
+      "metric": "accuracy",
+      "confidence": "medium",
+      "context": "ts - for instance, boosting GPT-OSS-20B accuracy on AIME25 from 84% to nearly 90% under fixed compute budge"
+    },
+    {
+      "paper_id": "2604.16022",
+      "benchmark": "Accuracy",
+      "score": 60.0,
+      "metric": "accuracy",
+      "confidence": "high",
+      "context": "trongest open model (GPT-OSS-120B) achieves below 60% accuracy in task completion and planning, with agents gett",
+      "model": "GPT-OSS-120B"
+    },
+    {
+      "paper_id": "2604.16022",
+      "benchmark": "SocialGrid",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "SocialGrid: A Benchmark for Planning and"
+    },
+    {
+      "paper_id": "2604.16022",
+      "benchmark": "SocialGrid",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "ecomes critical. We introduce SocialGrid, an embodied multi-agent envi"
+    },
+    {
+      "paper_id": "2604.16022",
+      "benchmark": "SocialGrid",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "ation of social intelligence, SocialGrid offers an optional Planning O"
+    },
+    {
+      "paper_id": "2604.16022",
+      "benchmark": "SocialGrid",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "mulating behavioral evidence. SocialGrid provides automatic failure an"
+    },
+    {
+      "paper_id": "2604.16022",
+      "benchmark": "accuracy",
+      "score": 60.0,
+      "metric": "accuracy",
+      "confidence": "medium",
+      "context": "pen model (GPT-OSS-120B) achieves below 60% accuracy in task completion and planning, with a"
+    },
+    {
+      "paper_id": "2604.16021",
+      "benchmark": "DROP",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "ls a catastrophic performance drop of state-of-the-art approache"
+    },
+    {
+      "paper_id": "2604.16021",
+      "benchmark": "KA-LogicQuery",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "zation (KA-LCL) and introduce KA-LogicQuery, a diagnostic benchmark requi"
+    },
+    {
+      "paper_id": "2604.16021",
+      "benchmark": "KA-LogicQuery",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "tate-of-the-art approaches on KA-LogicQuery, exposing their lack of deter"
+    },
+    {
+      "paper_id": "2604.16021",
+      "benchmark": "KA-LogicQuery",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "y outperforms SOTA methods on KA-LogicQuery while maintaining competitive"
+    },
+    {
+      "paper_id": "2604.16009",
+      "benchmark": "MEDLEY-BENCH",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "MEDLEY-BENCH: Scale Buys Evaluation but No"
+    },
+    {
+      "paper_id": "2604.16009",
+      "benchmark": "MEDLEY-BENCH",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "AI benchmarking. We introduce MEDLEY-BENCH, a benchmark of behavioural m"
+    },
+    {
+      "paper_id": "2604.16009",
+      "benchmark": "MEDLEY-BENCH",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "cale. These findings position MEDLEY-BENCH as a tool for measuring belie"
+    },
+    {
+      "paper_id": "2604.15994",
+      "benchmark": "AP",
+      "score": 30.0,
+      "metric": "accuracy",
+      "confidence": "high",
+      "context": "cross 17 MLLMs reveals a significant performance gap exceeding 30% between anchor-based tasks and holistic structura"
+    },
+    {
+      "paper_id": "2604.15994",
+      "benchmark": "ReactBench",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "ReactBench: A Benchmark for Topological"
+    },
+    {
+      "paper_id": "2604.15994",
+      "benchmark": "ReactBench",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "tural reasoning. We introduce ReactBench, a benchmark that reveals fun"
+    },
+    {
+      "paper_id": "2604.15871",
+      "benchmark": "UniEditBench",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "UniEditBench: A Unified and Cost-Effective"
+    },
+    {
+      "paper_id": "2604.15871",
+      "benchmark": "UniEditBench",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "d financial costs. We present UniEditBench, a unified benchmark for imag"
+    },
+    {
+      "paper_id": "2604.15871",
+      "benchmark": "UniEditBench",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "hods under a shared protocol. UniEditBench includes a structured taxonom"
+    },
+    {
+      "paper_id": "2604.15871",
+      "benchmark": "UniEditBench",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "elative to the teacher model. UniEditBench provides a practical and repr"
+    },
+    {
+      "paper_id": "2604.15871",
+      "benchmark": "UniEditBench",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "at https://github.com/wesar1/UniEditBench."
+    },
+    {
+      "paper_id": "2604.15839",
+      "benchmark": "Accuracy",
+      "score": 10.0,
+      "metric": "accuracy",
+      "confidence": "high",
+      "context": "ling that state-of-the-art LLMs exceed 80% answer accuracy on the same problems where formal provers manage under 10%, exposing a substantial gap that Hard Mode benchm"
+    },
+    {
+      "paper_id": "2604.15839",
+      "benchmark": "accuracy",
+      "score": 10.0,
+      "metric": "accuracy",
+      "confidence": "medium",
+      "context": "state-of-the-art LLMs exceed 80% answer accuracy on the same problems where formal provers manage under 10%, exposing a substantial gap that Hard M"
+    },
+    {
+      "paper_id": "2604.15830",
+      "benchmark": "MATH",
+      "score": 32.0,
+      "metric": "accuracy",
+      "confidence": "high",
+      "context": "ning to independent reasoning. Experiments on six mathematical reasoning benchmarks show that our 1.5B model achieves comparable average performance to 32B baselines while preserving pass@k diversity acro"
+    },
+    {
+      "paper_id": "2604.15808",
+      "benchmark": "VQA",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "ual Question Answering (SGMRI-VQA), a 41,307-pair benchmark for"
+    },
+    {
+      "paper_id": "2604.15802",
+      "benchmark": "Accuracy",
+      "score": 90.77,
+      "metric": "accuracy",
+      "confidence": "high",
+      "context": "Augmented Generation (RAG) systems lose retrieval accuracy when similar documents coexist in the vector database, causing unnecessary information, hallucinations, and factual errors. To alleviate this issue, we propose CHOP, a framework that iteratively evaluates chunk relevance with Large Language Models (LLMs) and progressively reconstructs documents by determining their association with specific topics or query types. CHOP integrates two key components: the CNM-Extractor, which generates compact per-chunk signatures capturing categories, key nouns, and model names, and the Continuity Decision Module, which preserves contextual coherence by deciding whether consecutive chunks belong to the same document flow. By prefixing each chunk with context-aware metadata, CHOP reduces semantic conflicts among similar documents and enhances retriever discrimination. Experiments on benchmark datasets show that CHOP alleviates retrieval confusion and provides a scalable approach for building high-quality knowledge bases, achieving a Top-1 Hit Rate of 90.77% and notable gains in ranking quality metrics."
+    },
+    {
+      "paper_id": "2604.15802",
+      "benchmark": "accuracy",
+      "score": 90.77,
+      "metric": "accuracy",
+      "confidence": "medium",
+      "context": "Generation (RAG) systems lose retrieval accuracy when similar documents coexist in the vector database, causing unnecessary information, hallucinations, and factual errors. To alleviate this issue, we propose CHOP, a framework that iteratively evaluates chunk relevance with Large Language Models (LLMs) and progressively reconstructs documents by determining their association with specific topics or query types. CHOP integrates two key components: the CNM-Extractor, which generates compact per-chunk signatures capturing categories, key nouns, and model names, and the Continuity Decision Module, which preserves contextual coherence by deciding whether consecutive chunks belong to the same document flow. By prefixing each chunk with context-aware metadata, CHOP reduces semantic conflicts among similar documents and enhances retriever discrimination. Experiments on benchmark datasets show that CHOP alleviates retrieval confusion and provides a scalable approach for building high-quality knowledge bases, achieving a Top-1 Hit Rate of 90.77% and notable gains in ranking quality me"
+    },
+    {
+      "paper_id": "2604.15760",
+      "benchmark": "AP",
+      "score": 83.0,
+      "metric": "accuracy",
+      "confidence": "high",
+      "context": "Conditional on passing, quality scores converge (approx 83% across models); unconditional scores do not. Same"
+    },
+    {
+      "paper_id": "2604.15736",
+      "benchmark": "Accuracy",
+      "score": 47.0,
+      "metric": "accuracy",
+      "confidence": "high",
+      "context": "eed-1.8 and Gemini-3-Pro, achieve only around 60% accuracy, while the strongest open-source model, Qwen3-VL, reaches only 47%. These results indicate that current models remai",
+      "model": "Gemini"
+    },
+    {
+      "paper_id": "2604.15736",
+      "benchmark": "Accuracy",
+      "score": 60.0,
+      "metric": "accuracy",
+      "confidence": "high",
+      "context": "ao-Seed-1.8 and Gemini-3-Pro, achieve only around 60% accuracy, while the strongest open-source model, Qwen3-VL,",
+      "model": "Gemini"
+    },
+    {
+      "paper_id": "2604.15736",
+      "benchmark": "accuracy",
+      "score": 60.0,
+      "metric": "accuracy",
+      "confidence": "medium",
+      "context": "8 and Gemini-3-Pro, achieve only around 60% accuracy, while the strongest open-source model,"
+    },
+    {
+      "paper_id": "2604.15736",
+      "benchmark": "accuracy",
+      "score": 47.0,
+      "metric": "accuracy",
+      "confidence": "medium",
+      "context": "d Gemini-3-Pro, achieve only around 60% accuracy, while the strongest open-source model, Qwen3-VL, reaches only 47%. These results indicate that current mo"
+    },
+    {
+      "paper_id": "2604.15715",
+      "benchmark": "Precision",
+      "score": 50.0,
+      "metric": "accuracy",
+      "confidence": "high",
+      "context": "k, evaluates short-horizon, closed-ended tool-use precision. (ii) GTA-Workflow introduces long-horizon, open-ended tasks for realistic end-to-end completion. To evaluate open-ended deliverables, we propose a recursive checkpoint-based evaluation mechanism that decomposes objectives into verifiable sub-goals, enabling unified evaluation of both model capabilities and agent execution frameworks (i.e., execution harnesses). Experiments reveal a pronounced capability cliff: while frontier models already struggle on atomic tasks (below 50%), they largely fail on workflows, with top models"
+    },
+    {
+      "paper_id": "2604.15715",
+      "benchmark": "precision",
+      "score": 50.0,
+      "metric": "precision",
+      "confidence": "medium",
+      "context": "es short-horizon, closed-ended tool-use precision. (ii) GTA-Workflow introduces long-horizon, open-ended tasks for realistic end-to-end completion. To evaluate open-ended deliverables, we propose a recursive checkpoint-based evaluation mechanism that decomposes objectives into verifiable sub-goals, enabling unified evaluation of both model capabilities and agent execution frameworks (i.e., execution harnesses). Experiments reveal a pronounced capability cliff: while frontier models already struggle on atomic tasks (below 50%), they largely fail on workflows, with"
+    },
+    {
+      "paper_id": "2604.15618",
+      "benchmark": "LiveCodeBench",
+      "metric": "mentioned",
+      "confidence": "low",
+      "context": "ially boosting performance on LiveCodeBench without a large compute overh"
+    }
+  ],
+  "statistics": {
+    "total_extractions": 69,
+    "papers_with_benchmarks": 26,
+    "total_papers": 100,
+    "papers_with_benchmarks_pct": 26.0,
+    "most_common_benchmark": "Accuracy",
+    "most_common_count": 10,
+    "benchmark_distribution": {
+      "Accuracy": 10,
+      "accuracy": 10,
+      "BAGEL": 5,
+      "UniEditBench": 5,
+      "F1": 4,
+      "SocialGrid": 4,
+      "MATH": 3,
+      "CrossMath": 3,
+      "KA-LogicQuery": 3,
+      "MEDLEY-BENCH": 3,
+      "PLUM": 2,
+      "ReCoRD": 2,
+      "Mind's Eye": 2,
+      "AP": 2,
+      "ReactBench": 2,
+      "XAI Question Bank": 1,
+      "MMLU": 1,
+      "GSM8K": 1,
+      "AUROC": 1,
+      "DROP": 1
+    },
+    "high_confidence_extractions": 16,
+    "medium_confidence_extractions": 14,
+    "low_confidence_extractions": 39
+  }
+}

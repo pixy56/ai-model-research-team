@@ -237,16 +237,98 @@ To add a new benchmark entry, use the [benchmark template](../templates/benchmar
 
 ---
 
+## Benchmark Comparison Table
+
+| Benchmark | Category | Metric | Dataset Size | Difficulty | Top Score (2025) | Leader |
+|-----------|----------|--------|--------------|------------|------------------|--------|
+| [MMLU](mmlu.md) | Core | Accuracy | 15,908 | High School-Professional | 92.4% | o3-mini |
+| [HumanEval](humaneval.md) | Code | Pass@1 | 164 | Varied | 92.4% | o3-mini |
+| [GPQA](gpqa.md) | Reasoning | Accuracy | 1,670 | Graduate | 86.0% | o3-mini |
+| [MATH](math.md) | Reasoning | Accuracy | 12,500 | Competition | 97.3% | o3-mini |
+| [SWE-bench](swe-bench.md) | Code | Resolution | 2,294 | Professional | 62.3% | Claude 3.7 Sonnet |
+| [MMMU](mmmu.md) | Multimodal | Accuracy | 11,500 | College | 82.4% | Gemini 2.0 Pro |
+| [MMBench](mmbench.md) | Multimodal | Accuracy | 3,000 | Varied | 89.2% | Gemini 2.0 Pro |
+| [ARC](arc.md) | Reasoning | Accuracy | 7,787 | Grade School | 97.5% | o3-mini |
+| [HellaSwag](hellaswag.md) | Reasoning | Accuracy | 39,905 | Varied | 95.5% | o3-mini |
+| [BBH](bbh.md) | Reasoning | Accuracy | 6,500 | Challenging | 92.5% | o3-mini |
+| [GSM8K](gsm8k.md) | Reasoning | Accuracy | 8,500 | Grade School | 99.2% | o3-mini |
+
+## Detailed Benchmark Registry
+
+### Core Benchmarks
+| Benchmark | Full Name | Description | Categories Tested |
+|-----------|-----------|-------------|-------------------|
+| [MMLU](mmlu.md) | Massive Multitask Language Understanding | 57 tasks covering STEM, humanities, social sciences | STEM, Humanities, Social Sciences, Professional |
+
+### Code Benchmarks
+| Benchmark | Full Name | Description | Categories Tested |
+|-----------|-----------|-------------|-------------------|
+| [HumanEval](humaneval.md) | Human Evaluation of Code Generation | 164 Python programming problems | Algorithms, String Processing, Data Structures |
+| [SWE-bench](swe-bench.md) | Software Engineering Benchmark | Real-world GitHub issue resolution | Bug Fixing, Feature Implementation, Testing |
+
+### Reasoning Benchmarks
+| Benchmark | Full Name | Description | Categories Tested |
+|-----------|-----------|-------------|-------------------|
+| [GPQA](gpqa.md) | Graduate-Level Google-Proof Q&A | Graduate science questions (Bio, Chem, Physics) | Biology, Chemistry, Physics |
+| [MATH](math.md) | Mathematics Competition | Competition math from AMC, AIME | Algebra, Geometry, Number Theory, Probability |
+| [ARC](arc.md) | AI2 Reasoning Challenge | Grade school science questions | Biology, Physics, Chemistry, Earth Science |
+| [HellaSwag](hellaswag.md) | Commonsense Completion | Sentence completion with adversarial examples | Physical Activities, Social Interactions |
+| [BBH](bbh.md) | Big-Bench Hard | 23 challenging reasoning tasks | Logic, Algorithms, Commonsense |
+| [GSM8K](gsm8k.md) | Grade School Math | 8,500 math word problems | Arithmetic, Word Problems, Multi-step |
+
+### Multimodal Benchmarks
+| Benchmark | Full Name | Description | Categories Tested |
+|-----------|-----------|-------------|-------------------|
+| [MMMU](mmmu.md) | Massive Multi-discipline Multimodal | College-level multimodal problems | Art, Business, Medicine, Science, Math |
+| [MMBench](mmbench.md) | Comprehensive Multimodal Eval | 20+ capability dimensions with circular testing | Perception, Cognition, Hallucination |
+
+## Score Interpretation Guide
+
+### Accuracy-Based Benchmarks
+| Score Range | Interpretation |
+|-------------|----------------|
+| 25% | Random baseline |
+| 25-40% | Below basic |
+| 40-60% | Basic understanding |
+| 60-80% | Competent performance |
+| 80-90% | Expert-level |
+| 90%+ | State-of-the-art |
+
+### Pass@k Benchmarks (HumanEval)
+| Score Range | Interpretation |
+|-------------|----------------|
+| <30% | Limited coding ability |
+| 30-50% | Basic coding skills |
+| 50-70% | Competent programmer |
+| 70-85% | Advanced coding |
+| 85%+ | Expert-level |
+
+### Resolution Rate (SWE-bench)
+| Score Range | Interpretation |
+|-------------|----------------|
+| <5% | Minimal capability |
+| 5-15% | Basic issue resolution |
+| 15-30% | Competent engineering |
+| 30-50% | Advanced engineering |
+| 50%+ | Expert-level |
+
+## Machine-Readable Registry
+
+A machine-readable JSON registry of all benchmarks is available at:
+- **Location:** `../../scripts/benchmark_registry.json`
+- **Format:** JSON with full benchmark metadata
+- **Schema:** Includes IDs, metrics, score ranges, sources, and categories
+
 ## Statistics
 
 | Category | Count | Last Updated |
 |----------|-------|--------------|
-| Core Benchmarks | 5 | 2026-04-19 |
-| Multimodal Benchmarks | 5 | 2026-04-19 |
-| Reasoning Benchmarks | 4 | 2026-04-19 |
-| Code Benchmarks | 4 | 2026-04-19 |
-| Safety Benchmarks | 4 | 2026-04-19 |
+| Core Benchmarks | 1 | 2026-04-20 |
+| Code Benchmarks | 2 | 2026-04-20 |
+| Reasoning Benchmarks | 6 | 2026-04-20 |
+| Multimodal Benchmarks | 2 | 2026-04-20 |
+| **Total Documented** | **11** | **2026-04-20** |
 
 ---
 
-*Last updated: 2026-04-19 by AI Model Research Team*
+*Last updated: 2026-04-20 by AI Model Research Team*
