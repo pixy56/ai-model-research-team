@@ -1,0 +1,502 @@
+[
+  {
+    "rank": 1,
+    "model_name": "MaziyarPanahi/calme-3.2-instruct-78b",
+    "mmlu_pro_score": 70.03361406619385,
+    "mmlu_pro_raw": 0.7303025265957447,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 77.965,
+    "model_type": "🔶 fine-tuned on domain-specific datasets",
+    "submission_date": "2024-11-28"
+  },
+  {
+    "rank": 2,
+    "model_name": "MaziyarPanahi/calme-3.1-instruct-78b",
+    "mmlu_pro_score": 68.72229609929079,
+    "mmlu_pro_raw": 0.718500664893617,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 77.965,
+    "model_type": "💬 chat models (RLHF, DPO, IFT, ...)",
+    "submission_date": "2024-11-27"
+  },
+  {
+    "rank": 3,
+    "model_name": "dfurman/CalmeRys-78B-Orpo-v0.1",
+    "mmlu_pro_score": 66.80149231678487,
+    "mmlu_pro_raw": 0.7012134308510638,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 77.965,
+    "model_type": "💬 chat models (RLHF, DPO, IFT, ...)",
+    "submission_date": "2024-09-24"
+  },
+  {
+    "rank": 4,
+    "model_name": "MaziyarPanahi/calme-2.4-rys-78b",
+    "mmlu_pro_score": 66.690676713948,
+    "mmlu_pro_raw": 0.7002160904255319,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 77.965,
+    "model_type": "💬 chat models (RLHF, DPO, IFT, ...)",
+    "submission_date": "2024-09-03"
+  },
+  {
+    "rank": 5,
+    "model_name": "glaiveai/Reflection-Llama-3.1-70B",
+    "mmlu_pro_score": 59.349143026004725,
+    "mmlu_pro_raw": 0.6341422872340425,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 69.5,
+    "model_type": "💬 chat models (RLHF, DPO, IFT, ...)",
+    "submission_date": "2024-10-07"
+  },
+  {
+    "rank": 6,
+    "model_name": "arcee-ai/Arcee-Blitz",
+    "mmlu_pro_score": 57.2621158392435,
+    "mmlu_pro_raw": 0.6153590425531915,
+    "architecture": "MistralForCausalLM",
+    "parameters_billions": 23.572,
+    "model_type": "🔶 fine-tuned on domain-specific datasets",
+    "submission_date": "2025-02-21"
+  },
+  {
+    "rank": 7,
+    "model_name": "newsbang/Homer-v1.0-Qwen2.5-72B",
+    "mmlu_pro_score": 57.16976950354611,
+    "mmlu_pro_raw": 0.6145279255319149,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 72.706,
+    "model_type": "🔶 fine-tuned on domain-specific datasets",
+    "submission_date": "2024-12-16"
+  },
+  {
+    "rank": 8,
+    "model_name": "Sakalti/ultiima-72B-v1.5",
+    "mmlu_pro_score": 56.153959810874696,
+    "mmlu_pro_raw": 0.6053856382978723,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 72.706,
+    "model_type": "🔶 fine-tuned on domain-specific datasets",
+    "submission_date": "2025-01-25"
+  },
+  {
+    "rank": 9,
+    "model_name": "Qwen/Qwen2.5-72B",
+    "mmlu_pro_score": 55.20279255319149,
+    "mmlu_pro_raw": 0.5968251329787234,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 72.706,
+    "model_type": "🟢 pretrained",
+    "submission_date": "2024-09-19"
+  },
+  {
+    "rank": 10,
+    "model_name": "Aryanne/QwentileSwap",
+    "mmlu_pro_score": 54.95345744680851,
+    "mmlu_pro_raw": 0.5945811170212766,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 32.764,
+    "model_type": "🤝 base merges and moerges",
+    "submission_date": "2025-02-05"
+  },
+  {
+    "rank": 11,
+    "model_name": "rombodawg/Rombos-LLM-V2.5-Qwen-72b",
+    "mmlu_pro_score": 54.83340721040189,
+    "mmlu_pro_raw": 0.593500664893617,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 72.706,
+    "model_type": "🤝 base merges and moerges",
+    "submission_date": "2024-12-19"
+  },
+  {
+    "rank": 12,
+    "model_name": "rombodawg/Rombos-LLM-V2.5-Qwen-32b",
+    "mmlu_pro_score": 54.621010638297875,
+    "mmlu_pro_raw": 0.5915890957446809,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 32.764,
+    "model_type": "🔶 fine-tuned on domain-specific datasets",
+    "submission_date": "2024-10-07"
+  },
+  {
+    "rank": 13,
+    "model_name": "sakaltcommunity/novablast-preview",
+    "mmlu_pro_score": 54.61177600472813,
+    "mmlu_pro_raw": 0.5915059840425532,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 32.764,
+    "model_type": "🤝 base merges and moerges",
+    "submission_date": "2024-12-18"
+  },
+  {
+    "rank": 14,
+    "model_name": "fblgit/TheBeagle-v2beta-32B-MGS",
+    "mmlu_pro_score": 54.61177600472813,
+    "mmlu_pro_raw": 0.5915059840425532,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 32.764,
+    "model_type": "🔶 fine-tuned on domain-specific datasets",
+    "submission_date": "2024-10-30"
+  },
+  {
+    "rank": 15,
+    "model_name": "Sakalti/ultiima-32B",
+    "mmlu_pro_score": 54.55636820330969,
+    "mmlu_pro_raw": 0.5910073138297872,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 32.764,
+    "model_type": "🤝 base merges and moerges",
+    "submission_date": "2024-12-23"
+  },
+  {
+    "rank": 16,
+    "model_name": "Sakalti/Oxyge1-33B",
+    "mmlu_pro_score": 54.547133569739955,
+    "mmlu_pro_raw": 0.5909242021276596,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 32.764,
+    "model_type": "🔶 fine-tuned on domain-specific datasets",
+    "submission_date": "2024-12-18"
+  },
+  {
+    "rank": 17,
+    "model_name": "hotmailuser/RombosBeagle-v2beta-MGS-32B",
+    "mmlu_pro_score": 54.52866430260048,
+    "mmlu_pro_raw": 0.5907579787234043,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 32.764,
+    "model_type": "🤝 base merges and moerges",
+    "submission_date": "2024-12-23"
+  },
+  {
+    "rank": 18,
+    "model_name": "Sakalti/ultiima-72B",
+    "mmlu_pro_score": 54.510195035460995,
+    "mmlu_pro_raw": 0.590591755319149,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 72.706,
+    "model_type": "🔶 fine-tuned on domain-specific datasets",
+    "submission_date": "2025-01-09"
+  },
+  {
+    "rank": 19,
+    "model_name": "JungZoona/T3Q-qwen2.5-14b-v1.0-e3",
+    "mmlu_pro_score": 54.270094562647756,
+    "mmlu_pro_raw": 0.5884308510638298,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 14.77,
+    "model_type": "🔶 fine-tuned on domain-specific datasets",
+    "submission_date": "2025-03-13"
+  },
+  {
+    "rank": 20,
+    "model_name": "JungZoona/T3Q-Qwen2.5-14B-Instruct-1M-e3",
+    "mmlu_pro_score": 54.270094562647756,
+    "mmlu_pro_raw": 0.5884308510638298,
+    "architecture": "Unknown",
+    "parameters_billions": 0.0,
+    "model_type": "❓ other",
+    "submission_date": ""
+  },
+  {
+    "rank": 21,
+    "model_name": "maldv/Qwentile2.5-32B-Instruct",
+    "mmlu_pro_score": 54.214686761229316,
+    "mmlu_pro_raw": 0.5879321808510638,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 32.764,
+    "model_type": "🤝 base merges and moerges",
+    "submission_date": "2024-12-19"
+  },
+  {
+    "rank": 22,
+    "model_name": "zetasepic/Qwen2.5-72B-Instruct-abliterated",
+    "mmlu_pro_score": 54.13157505910166,
+    "mmlu_pro_raw": 0.5871841755319149,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 72.706,
+    "model_type": "🔶 fine-tuned on domain-specific datasets",
+    "submission_date": "2024-11-08"
+  },
+  {
+    "rank": 23,
+    "model_name": "rootxhacker/Apollo_v2-32B",
+    "mmlu_pro_score": 54.10387115839244,
+    "mmlu_pro_raw": 0.5869348404255319,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 32.764,
+    "model_type": "🤝 base merges and moerges",
+    "submission_date": "2025-03-11"
+  },
+  {
+    "rank": 24,
+    "model_name": "Baptiste-HUVELLE-10/LeTriomphant2.2_ECE_iLAB",
+    "mmlu_pro_score": 53.90070921985816,
+    "mmlu_pro_raw": 0.5851063829787234,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 72.706,
+    "model_type": "🤝 base merges and moerges",
+    "submission_date": "2025-02-28"
+  },
+  {
+    "rank": 25,
+    "model_name": "raphgg/test-2.5-72B",
+    "mmlu_pro_score": 53.74372044917257,
+    "mmlu_pro_raw": 0.5836934840425532,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 72.706,
+    "model_type": "🔶 fine-tuned on domain-specific datasets",
+    "submission_date": "2024-12-27"
+  },
+  {
+    "rank": 26,
+    "model_name": "EVA-UNIT-01/EVA-Qwen2.5-72B-v0.2",
+    "mmlu_pro_score": 53.47591607565011,
+    "mmlu_pro_raw": 0.581283244680851,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 72.706,
+    "model_type": "🔶 fine-tuned on domain-specific datasets",
+    "submission_date": "2024-11-27"
+  },
+  {
+    "rank": 27,
+    "model_name": "fluently-lm/FluentlyLM-Prinum",
+    "mmlu_pro_score": 53.42050827423167,
+    "mmlu_pro_raw": 0.5807845744680851,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 32.764,
+    "model_type": "💬 chat models (RLHF, DPO, IFT, ...)",
+    "submission_date": "2025-02-16"
+  },
+  {
+    "rank": 28,
+    "model_name": "Qwen/Qwen2.5-32B",
+    "mmlu_pro_score": 53.39280437352246,
+    "mmlu_pro_raw": 0.5805352393617021,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 32.764,
+    "model_type": "🟢 pretrained",
+    "submission_date": "2024-09-19"
+  },
+  {
+    "rank": 29,
+    "model_name": "rubenroy/Gilgamesh-72B",
+    "mmlu_pro_score": 53.3558658392435,
+    "mmlu_pro_raw": 0.5802027925531915,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 72.706,
+    "model_type": "🔶 fine-tuned on domain-specific datasets",
+    "submission_date": "2025-02-25"
+  },
+  {
+    "rank": 30,
+    "model_name": "Saxo/Linkbricks-Horizon-AI-Avengers-V1-32B",
+    "mmlu_pro_score": 53.25428486997635,
+    "mmlu_pro_raw": 0.5792885638297872,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 32.76,
+    "model_type": "🔶 fine-tuned on domain-specific datasets",
+    "submission_date": "2024-12-29"
+  },
+  {
+    "rank": 31,
+    "model_name": "FINGU-AI/RomboUltima-32B",
+    "mmlu_pro_score": 53.20811170212767,
+    "mmlu_pro_raw": 0.578873005319149,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 17.645,
+    "model_type": "🤝 base merges and moerges",
+    "submission_date": "2025-02-02"
+  },
+  {
+    "rank": 32,
+    "model_name": "tomasmcm/sky-t1-coder-32b-flash",
+    "mmlu_pro_score": 53.13423463356975,
+    "mmlu_pro_raw": 0.5782081117021277,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 32.764,
+    "model_type": "🤝 base merges and moerges",
+    "submission_date": "2025-02-22"
+  },
+  {
+    "rank": 33,
+    "model_name": "ehristoforu/qwen2.5-test-32b-it",
+    "mmlu_pro_score": 52.94954196217494,
+    "mmlu_pro_raw": 0.5765458776595744,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 32.764,
+    "model_type": "💬 chat models (RLHF, DPO, IFT, ...)",
+    "submission_date": "2024-12-07"
+  },
+  {
+    "rank": 34,
+    "model_name": "Saxo/Linkbricks-Horizon-AI-Avengers-V5-32B",
+    "mmlu_pro_score": 52.912603427895974,
+    "mmlu_pro_raw": 0.5762134308510638,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 32.764,
+    "model_type": "🔶 fine-tuned on domain-specific datasets",
+    "submission_date": "2024-12-31"
+  },
+  {
+    "rank": 35,
+    "model_name": "Daemontatox/PathFinderAi3.0",
+    "mmlu_pro_score": 52.85719562647754,
+    "mmlu_pro_raw": 0.5757147606382979,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 32.764,
+    "model_type": "🔶 fine-tuned on domain-specific datasets",
+    "submission_date": "2025-01-21"
+  },
+  {
+    "rank": 36,
+    "model_name": "Saxo/Linkbricks-Horizon-AI-Avengers-V4-32B",
+    "mmlu_pro_score": 52.8017878250591,
+    "mmlu_pro_raw": 0.5752160904255319,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 32.764,
+    "model_type": "🔶 fine-tuned on domain-specific datasets",
+    "submission_date": "2024-12-31"
+  },
+  {
+    "rank": 37,
+    "model_name": "nisten/franqwenstein-35b",
+    "mmlu_pro_score": 52.56168735224587,
+    "mmlu_pro_raw": 0.5730551861702128,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 34.714,
+    "model_type": "🤝 base merges and moerges",
+    "submission_date": "2024-10-03"
+  },
+  {
+    "rank": 38,
+    "model_name": "Qwen/Qwen2-72B",
+    "mmlu_pro_score": 52.56168735224587,
+    "mmlu_pro_raw": 0.5730551861702128,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 72.706,
+    "model_type": "🟢 pretrained",
+    "submission_date": "2024-06-26"
+  },
+  {
+    "rank": 39,
+    "model_name": "maldv/Awqward2.5-32B-Instruct",
+    "mmlu_pro_score": 52.478575650118195,
+    "mmlu_pro_raw": 0.5723071808510638,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 32.764,
+    "model_type": "🤝 base merges and moerges",
+    "submission_date": "2024-12-18"
+  },
+  {
+    "rank": 40,
+    "model_name": "CombinHorizon/huihui-ai-abliterated-Qwen2.5-32B-Inst-BaseMerge-TIES",
+    "mmlu_pro_score": 52.45087174940899,
+    "mmlu_pro_raw": 0.5720578457446809,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 32.764,
+    "model_type": "🤝 base merges and moerges",
+    "submission_date": "2024-12-07"
+  },
+  {
+    "rank": 41,
+    "model_name": "Saxo/Linkbricks-Horizon-AI-Avengers-V2-32B",
+    "mmlu_pro_score": 52.44163711583924,
+    "mmlu_pro_raw": 0.5719747340425532,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 32.76,
+    "model_type": "🔶 fine-tuned on domain-specific datasets",
+    "submission_date": "2024-12-30"
+  },
+  {
+    "rank": 42,
+    "model_name": "Qwen/Qwen2-VL-72B-Instruct",
+    "mmlu_pro_score": 52.41393321513003,
+    "mmlu_pro_raw": 0.5717253989361702,
+    "architecture": "Qwen2VLForConditionalGeneration",
+    "parameters_billions": 73.406,
+    "model_type": "🌸 multimodal",
+    "submission_date": "2024-10-20"
+  },
+  {
+    "rank": 43,
+    "model_name": "shuttleai/shuttle-3",
+    "mmlu_pro_score": 52.40469858156028,
+    "mmlu_pro_raw": 0.5716422872340425,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 72.706,
+    "model_type": "🔶 fine-tuned on domain-specific datasets",
+    "submission_date": "2024-12-04"
+  },
+  {
+    "rank": 44,
+    "model_name": "prithivMLmods/Galactic-Qwen-14B-Exp2",
+    "mmlu_pro_score": 52.11842494089834,
+    "mmlu_pro_raw": 0.5690658244680851,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 14.766,
+    "model_type": "🔶 fine-tuned on domain-specific datasets",
+    "submission_date": "2025-03-13"
+  },
+  {
+    "rank": 45,
+    "model_name": "CombinHorizon/zetasepic-abliteratedV2-Qwen2.5-32B-Inst-BaseMerge-TIES",
+    "mmlu_pro_score": 52.05378250591017,
+    "mmlu_pro_raw": 0.5684840425531915,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 32.764,
+    "model_type": "🤝 base merges and moerges",
+    "submission_date": "2024-12-20"
+  },
+  {
+    "rank": 46,
+    "model_name": "Qwen/QwQ-32B-Preview",
+    "mmlu_pro_score": 51.979905437352244,
+    "mmlu_pro_raw": 0.5678191489361702,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 32.764,
+    "model_type": "💬 chat models (RLHF, DPO, IFT, ...)",
+    "submission_date": "2024-11-29"
+  },
+  {
+    "rank": 47,
+    "model_name": "Saxo/Linkbricks-Horizon-AI-Avengers-V6-32B",
+    "mmlu_pro_score": 51.915263002364064,
+    "mmlu_pro_raw": 0.5672373670212766,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 32.76,
+    "model_type": "🔶 fine-tuned on domain-specific datasets",
+    "submission_date": "2025-01-01"
+  },
+  {
+    "rank": 48,
+    "model_name": "Qwen/Qwen2.5-32B-Instruct",
+    "mmlu_pro_score": 51.85062056737589,
+    "mmlu_pro_raw": 0.566655585106383,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 32.764,
+    "model_type": "💬 chat models (RLHF, DPO, IFT, ...)",
+    "submission_date": "2024-09-19"
+  },
+  {
+    "rank": 49,
+    "model_name": "Saxo/Linkbricks-Horizon-AI-Avengers-V3-32B",
+    "mmlu_pro_score": 51.822916666666664,
+    "mmlu_pro_raw": 0.56640625,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 32.764,
+    "model_type": "🔶 fine-tuned on domain-specific datasets",
+    "submission_date": "2024-12-31"
+  },
+  {
+    "rank": 50,
+    "model_name": "tanliboy/lambda-qwen2.5-32b-dpo-test",
+    "mmlu_pro_score": 51.739804964539005,
+    "mmlu_pro_raw": 0.565658244680851,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 32.764,
+    "model_type": "💬 chat models (RLHF, DPO, IFT, ...)",
+    "submission_date": "2024-09-30"
+  }
+]

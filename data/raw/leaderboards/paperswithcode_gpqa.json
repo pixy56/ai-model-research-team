@@ -1,0 +1,402 @@
+[
+  {
+    "rank": 1,
+    "model_name": "0-hero/Matter-0.2-7B-DPO",
+    "gpqa_score": 1.230425055928408,
+    "architecture": "MistralForCausalLM",
+    "parameters_billions": 7.242,
+    "model_type": "💬 chat models (RLHF, DPO, IFT, ...)"
+  },
+  {
+    "rank": 2,
+    "model_name": "01-ai/Yi-1.5-34B",
+    "gpqa_score": 15.436241610738257,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 34.389,
+    "model_type": "🟢 pretrained"
+  },
+  {
+    "rank": 3,
+    "model_name": "01-ai/Yi-1.5-34B-32K",
+    "gpqa_score": 15.100671140939594,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 34.389,
+    "model_type": "🟢 pretrained"
+  },
+  {
+    "rank": 4,
+    "model_name": "01-ai/Yi-1.5-34B-Chat",
+    "gpqa_score": 15.324384787472036,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 34.389,
+    "model_type": "💬 chat models (RLHF, DPO, IFT, ...)"
+  },
+  {
+    "rank": 5,
+    "model_name": "01-ai/Yi-1.5-34B-Chat-16K",
+    "gpqa_score": 11.74496644295302,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 34.389,
+    "model_type": "💬 chat models (RLHF, DPO, IFT, ...)"
+  },
+  {
+    "rank": 6,
+    "model_name": "01-ai/Yi-1.5-6B",
+    "gpqa_score": 8.501118568232664,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 6.061,
+    "model_type": "🟢 pretrained"
+  },
+  {
+    "rank": 7,
+    "model_name": "01-ai/Yi-1.5-6B-Chat",
+    "gpqa_score": 6.935123042505594,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 6.061,
+    "model_type": "💬 chat models (RLHF, DPO, IFT, ...)"
+  },
+  {
+    "rank": 8,
+    "model_name": "01-ai/Yi-1.5-9B",
+    "gpqa_score": 17.225950782997764,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 8.829,
+    "model_type": "🟢 pretrained"
+  },
+  {
+    "rank": 9,
+    "model_name": "01-ai/Yi-1.5-9B-32K",
+    "gpqa_score": 14.541387024608499,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 8.829,
+    "model_type": "🟢 pretrained"
+  },
+  {
+    "rank": 10,
+    "model_name": "01-ai/Yi-1.5-9B-Chat",
+    "gpqa_score": 11.297539149888143,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 8.829,
+    "model_type": "💬 chat models (RLHF, DPO, IFT, ...)"
+  },
+  {
+    "rank": 11,
+    "model_name": "01-ai/Yi-1.5-9B-Chat-16K",
+    "gpqa_score": 7.829977628635347,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 8.829,
+    "model_type": "💬 chat models (RLHF, DPO, IFT, ...)"
+  },
+  {
+    "rank": 12,
+    "model_name": "01-ai/Yi-34B",
+    "gpqa_score": 15.548098434004473,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 34.389,
+    "model_type": "🟢 pretrained"
+  },
+  {
+    "rank": 13,
+    "model_name": "01-ai/Yi-34B-200K",
+    "gpqa_score": 14.205816554809845,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 34.389,
+    "model_type": "🟢 pretrained"
+  },
+  {
+    "rank": 14,
+    "model_name": "01-ai/Yi-34B-Chat",
+    "gpqa_score": 11.74496644295302,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 34.389,
+    "model_type": "💬 chat models (RLHF, DPO, IFT, ...)"
+  },
+  {
+    "rank": 15,
+    "model_name": "01-ai/Yi-6B",
+    "gpqa_score": 2.572706935123044,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 6.061,
+    "model_type": "🟢 pretrained"
+  },
+  {
+    "rank": 16,
+    "model_name": "01-ai/Yi-6B-200K",
+    "gpqa_score": 4.250559284116329,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 6.061,
+    "model_type": "🟢 pretrained"
+  },
+  {
+    "rank": 17,
+    "model_name": "01-ai/Yi-6B-Chat",
+    "gpqa_score": 5.92841163310962,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 6.061,
+    "model_type": "💬 chat models (RLHF, DPO, IFT, ...)"
+  },
+  {
+    "rank": 18,
+    "model_name": "01-ai/Yi-9B",
+    "gpqa_score": 9.060402684563762,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 8.829,
+    "model_type": "🟢 pretrained"
+  },
+  {
+    "rank": 19,
+    "model_name": "01-ai/Yi-9B-200K",
+    "gpqa_score": 8.7248322147651,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 8.829,
+    "model_type": "🟢 pretrained"
+  },
+  {
+    "rank": 20,
+    "model_name": "01-ai/Yi-Coder-9B-Chat",
+    "gpqa_score": 0.0,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 8.829,
+    "model_type": "🔶 fine-tuned on domain-specific datasets"
+  },
+  {
+    "rank": 21,
+    "model_name": "1-800-LLMs/Qwen-2.5-14B-Hindi",
+    "gpqa_score": 14.988814317673373,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 14.77,
+    "model_type": "🔶 fine-tuned on domain-specific datasets"
+  },
+  {
+    "rank": 22,
+    "model_name": "1-800-LLMs/Qwen-2.5-14B-Hindi-Custom-Instruct",
+    "gpqa_score": 15.99552572706935,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 14.77,
+    "model_type": "🔶 fine-tuned on domain-specific datasets"
+  },
+  {
+    "rank": 23,
+    "model_name": "1024m/PHI-4-Hindi",
+    "gpqa_score": 19.686800894854585,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 14.66,
+    "model_type": "🔶 fine-tuned on domain-specific datasets"
+  },
+  {
+    "rank": 24,
+    "model_name": "1024m/QWEN-14B-B100",
+    "gpqa_score": 13.422818791946312,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 14.77,
+    "model_type": "🔶 fine-tuned on domain-specific datasets"
+  },
+  {
+    "rank": 25,
+    "model_name": "152334H/miqu-1-70b-sf",
+    "gpqa_score": 13.422818791946312,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 68.977,
+    "model_type": "🔶 fine-tuned on domain-specific datasets"
+  },
+  {
+    "rank": 26,
+    "model_name": "1TuanPham/T-VisStar-7B-v0.1",
+    "gpqa_score": 4.697986577181204,
+    "architecture": "MistralForCausalLM",
+    "parameters_billions": 7.294,
+    "model_type": "💬 chat models (RLHF, DPO, IFT, ...)"
+  },
+  {
+    "rank": 27,
+    "model_name": "1TuanPham/T-VisStar-v0.1",
+    "gpqa_score": 4.697986577181204,
+    "architecture": "MistralForCausalLM",
+    "parameters_billions": 7.294,
+    "model_type": "🔶 fine-tuned on domain-specific datasets"
+  },
+  {
+    "rank": 28,
+    "model_name": "3rd-Degree-Burn/L-3.1-Science-Writer-8B",
+    "gpqa_score": 3.243847874720355,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 8.03,
+    "model_type": "🔶 fine-tuned on domain-specific datasets"
+  },
+  {
+    "rank": 29,
+    "model_name": "3rd-Degree-Burn/Llama-3.1-8B-Squareroot",
+    "gpqa_score": 0.8948545861297527,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 8.03,
+    "model_type": "🤝 base merges and moerges"
+  },
+  {
+    "rank": 30,
+    "model_name": "3rd-Degree-Burn/Llama-3.1-8B-Squareroot-v1",
+    "gpqa_score": 0.7829977628635317,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 8.03,
+    "model_type": "🤝 base merges and moerges"
+  },
+  {
+    "rank": 31,
+    "model_name": "3rd-Degree-Burn/Llama-Squared-8B",
+    "gpqa_score": 2.9082774049216997,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 8.03,
+    "model_type": "🔶 fine-tuned on domain-specific datasets"
+  },
+  {
+    "rank": 32,
+    "model_name": "4season/final_model_test_v2",
+    "gpqa_score": 10.290827740492169,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 21.421,
+    "model_type": "🔶 fine-tuned on domain-specific datasets"
+  },
+  {
+    "rank": 33,
+    "model_name": "AALF/FuseChat-Llama-3.1-8B-Instruct-preview",
+    "gpqa_score": 7.38255033557047,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 8.03,
+    "model_type": "💬 chat models (RLHF, DPO, IFT, ...)"
+  },
+  {
+    "rank": 34,
+    "model_name": "AALF/FuseChat-Llama-3.1-8B-SFT-preview",
+    "gpqa_score": 7.270693512304249,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 8.03,
+    "model_type": "🔶 fine-tuned on domain-specific datasets"
+  },
+  {
+    "rank": 35,
+    "model_name": "AALF/gemma-2-27b-it-SimPO-37K",
+    "gpqa_score": 4.026845637583895,
+    "architecture": "Gemma2ForCausalLM",
+    "parameters_billions": 27.227,
+    "model_type": "💬 chat models (RLHF, DPO, IFT, ...)"
+  },
+  {
+    "rank": 36,
+    "model_name": "AALF/gemma-2-27b-it-SimPO-37K-100steps",
+    "gpqa_score": 5.145413870246088,
+    "architecture": "Gemma2ForCausalLM",
+    "parameters_billions": 27.227,
+    "model_type": "💬 chat models (RLHF, DPO, IFT, ...)"
+  },
+  {
+    "rank": 37,
+    "model_name": "AELLM/gemma-2-aeria-infinity-9b",
+    "gpqa_score": 11.185682326621922,
+    "architecture": "Gemma2ForCausalLM",
+    "parameters_billions": 9.242,
+    "model_type": "🤝 base merges and moerges"
+  },
+  {
+    "rank": 38,
+    "model_name": "AELLM/gemma-2-lyco-infinity-9b",
+    "gpqa_score": 10.402684563758392,
+    "architecture": "Gemma2ForCausalLM",
+    "parameters_billions": 10.159,
+    "model_type": "💬 chat models (RLHF, DPO, IFT, ...)"
+  },
+  {
+    "rank": 39,
+    "model_name": "AGI-0/Art-v0-3B",
+    "gpqa_score": 1.230425055928408,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 3.086,
+    "model_type": "🔶 fine-tuned on domain-specific datasets"
+  },
+  {
+    "rank": 40,
+    "model_name": "AGI-0/Artificium-llama3.1-8B-001",
+    "gpqa_score": 2.1252796420581683,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 8.03,
+    "model_type": "🔶 fine-tuned on domain-specific datasets"
+  },
+  {
+    "rank": 41,
+    "model_name": "AGI-0/smartllama3.1-8B-001",
+    "gpqa_score": 7.494407158836691,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 8.03,
+    "model_type": "🔶 fine-tuned on domain-specific datasets"
+  },
+  {
+    "rank": 42,
+    "model_name": "AI-MO/NuminaMath-7B-CoT",
+    "gpqa_score": 2.1252796420581683,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 6.91,
+    "model_type": "🔶 fine-tuned on domain-specific datasets"
+  },
+  {
+    "rank": 43,
+    "model_name": "AI-MO/NuminaMath-7B-TIR",
+    "gpqa_score": 1.1185682326621946,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 6.91,
+    "model_type": "🔶 fine-tuned on domain-specific datasets"
+  },
+  {
+    "rank": 44,
+    "model_name": "AI-Sweden-Models/Llama-3-8B-instruct",
+    "gpqa_score": 2.1252796420581683,
+    "architecture": "LlamaForCausalLM",
+    "parameters_billions": 8.03,
+    "model_type": "🔶 fine-tuned on domain-specific datasets"
+  },
+  {
+    "rank": 45,
+    "model_name": "AI-Sweden-Models/gpt-sw3-40b",
+    "gpqa_score": 0.0,
+    "architecture": "GPT2LMHeadModel",
+    "parameters_billions": 39.927,
+    "model_type": "🟢 pretrained"
+  },
+  {
+    "rank": 46,
+    "model_name": "AI4free/Dhanishtha",
+    "gpqa_score": 0.33557046979865535,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 1.777,
+    "model_type": "🟩 continuously pretrained"
+  },
+  {
+    "rank": 47,
+    "model_name": "AI4free/t2",
+    "gpqa_score": 1.0067114093959737,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 7.613,
+    "model_type": "🤝 base merges and moerges"
+  },
+  {
+    "rank": 48,
+    "model_name": "AIDC-AI/Marco-o1",
+    "gpqa_score": 1.230425055928408,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 7.616,
+    "model_type": "💬 chat models (RLHF, DPO, IFT, ...)"
+  },
+  {
+    "rank": 49,
+    "model_name": "Aashraf995/Creative-7B-nerd",
+    "gpqa_score": 10.17897091722595,
+    "architecture": "Qwen2ForCausalLM",
+    "parameters_billions": 7.616,
+    "model_type": "🤝 base merges and moerges"
+  },
+  {
+    "rank": 50,
+    "model_name": "Aashraf995/Gemma-Evo-10B",
+    "gpqa_score": 13.870246085011187,
+    "architecture": "Gemma2ForCausalLM",
+    "parameters_billions": 10.159,
+    "model_type": "🤝 base merges and moerges"
+  }
+]
