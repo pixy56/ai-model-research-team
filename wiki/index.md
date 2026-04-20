@@ -13,7 +13,7 @@
 | [Models](models/) | Individual model information and specifications | [LLMs](models/llms/) · [Multimodal](models/multimodal/) · [Reasoning](models/reasoning/) |
 | [Benchmarks](benchmarks/) | Benchmark information, scores, and leaderboards | [Core](benchmarks/#core-benchmarks) · [Multimodal](benchmarks/#multimodal-benchmarks) |
 | [Labs](labs/) | Research lab profiles and releases | [OpenAI](labs/openai.md) · [Anthropic](labs/anthropic.md) · [Google](labs/google.md) |
-| [Architectures](architectures/) | Architecture patterns and innovations | [Transformers](architectures/) · [MoE](architectures/) · [SSM](architectures/) |
+|| [Architectures](architectures/) | Architecture patterns and taxonomy | [Dense Transformer](architectures/dense-transformer.md) · [MoE](architectures/moe.md) · [SSM](architectures/ssm.md) · [Multimodal](architectures/multimodal.md) · [Reasoning](architectures/reasoning.md) · [Diffusion](architectures/diffusion.md) |
 | [Research Findings](research-findings/) | Key research insights and discoveries | [Papers](research-findings/papers/) · [Insights](research-findings/insights/) |
 
 ---
