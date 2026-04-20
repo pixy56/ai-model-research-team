@@ -1,0 +1,3971 @@
+{
+  "metadata": {
+    "extraction_date": "2026-04-20T04:44:52.839580",
+    "source_file": "data/processed/paper_insights.json",
+    "total_papers": 100,
+    "papers_processed": 100,
+    "methodology": {
+      "description": "Automated extraction of key findings from paper abstracts using regex patterns",
+      "finding_types": [
+        "result",
+        "claim",
+        "method",
+        "limitation"
+      ],
+      "extraction_sources": [
+        "title",
+        "abstract"
+      ],
+      "patterns_used": {
+        "results": "Numerical achievements, scores, improvements (e.g., \"achieves X%\", \"accuracy of Y\")",
+        "claims": "Research findings stated with confidence (e.g., \"we show that\", \"our results demonstrate\")",
+        "methods": "Novel approaches, frameworks, techniques (e.g., \"we propose X\", \"we introduce Y\")",
+        "limitations": "Constraints, challenges, gaps (e.g., \"remains unclear\", \"challenge is\")"
+      }
+    }
+  },
+  "findings": [
+    {
+      "id": "finding_0001",
+      "type": "method",
+      "category": "method",
+      "paper_id": "2604.16280",
+      "paper_title": "Using Large Language Models and Knowledge Graphs to Improve the Interpretability of Machine Learning Models in Manufacturing",
+      "paper_categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "text": "we introduce more complex, tailored questions that highlight the strengths of our approach",
+      "method_name": null,
+      "is_novel": false,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "XAI Question Bank"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0002",
+      "type": "method",
+      "category": "method",
+      "paper_id": "2604.16280",
+      "paper_title": "Using Large Language Models and Knowledge Graphs to Improve the Interpretability of Machine Learning Models in Manufacturing",
+      "paper_categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "text": "we present a method",
+      "method_name": null,
+      "is_novel": false,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "XAI Question Bank"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0003",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.16280",
+      "paper_title": "Using Large Language Models and Knowledge Graphs to Improve the Interpretability of Machine Learning Models in Manufacturing",
+      "paper_categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "text": "we present a novel approach",
+      "method_name": null,
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "XAI Question Bank"
+      ],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0004",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16279",
+      "paper_title": "Evaluating the Progression of Large Language Model Capabilities for Small-Molecule Drug Design",
+      "paper_categories": [
+        "cs.LG",
+        "physics.chem-ph"
+      ],
+      "primary_category": "cs.LG",
+      "text": "frontier models are increasingly proficient at chemical tasks, but that there is significant room for improvement, especially in experimental settings with low data",
+      "context": "we find that frontier models are increasingly proficient at chemical tasks, but that there is significant room for improvement, especially in experimental settings with low data",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0005",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16279",
+      "paper_title": "Evaluating the Progression of Large Language Model Capabilities for Small-Molecule Drug Design",
+      "paper_categories": [
+        "cs.LG",
+        "physics.chem-ph"
+      ],
+      "primary_category": "cs.LG",
+      "text": "RL-based post-training can substantially improve performance",
+      "context": "we show that RL-based post-training can substantially improve performance",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0006",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16279",
+      "paper_title": "Evaluating the Progression of Large Language Model Capabilities for Small-Molecule Drug Design",
+      "paper_categories": [
+        "cs.LG",
+        "physics.chem-ph"
+      ],
+      "primary_category": "cs.LG",
+      "text": "frontier models are increasingly proficient at chemical tasks, but that there is significant room for improvement, especially in experimental settings with low data",
+      "context": "we find that frontier models are increasingly proficient at chemical tasks, but that there is significant room for improvement, especially in experimental settings with low data",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0007",
+      "type": "limitation",
+      "category": "limitation",
+      "paper_id": "2604.16279",
+      "paper_title": "Evaluating the Progression of Large Language Model Capabilities for Small-Molecule Drug Design",
+      "paper_categories": [
+        "cs.LG",
+        "physics.chem-ph"
+      ],
+      "primary_category": "cs.LG",
+      "text": "remains unclear due to the lack of benchmarks that reflect real-world scenarios",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0008",
+      "type": "limitation",
+      "category": "limitation",
+      "paper_id": "2604.16279",
+      "paper_title": "Evaluating the Progression of Large Language Model Capabilities for Small-Molecule Drug Design",
+      "paper_categories": [
+        "cs.LG",
+        "physics.chem-ph"
+      ],
+      "primary_category": "cs.LG",
+      "text": "However, their practical utility remains unclear",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0009",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16278",
+      "paper_title": "Learning to Reason with Insight for Informal Theorem Proving",
+      "paper_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "primary_category": "cs.AI",
+      "text": "teaching models to identify and apply core techniques can substantially improve their mathematical reasoning",
+      "context": "These results demonstrate that teaching models to identify and apply core techniques can substantially improve their mathematical reasoning",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "DeepInsightTheorem"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0010",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16278",
+      "paper_title": "Learning to Reason with Insight for Informal Theorem Proving",
+      "paper_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "primary_category": "cs.AI",
+      "text": "a primary bottleneck in informal theorem proving as a lack of insight, namely the difficulty of recognizing the core techniques required to solve complex problems",
+      "context": "we identify a primary bottleneck in informal theorem proving as a lack of insight, namely the difficulty of recognizing the core techniques required to solve complex problems",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "DeepInsightTheorem"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0011",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16278",
+      "paper_title": "Learning to Reason with Insight for Informal Theorem Proving",
+      "paper_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "primary_category": "cs.AI",
+      "text": "teaching models to identify and apply core techniques can substantially improve their mathematical reasoning",
+      "context": "results demonstrate that teaching models to identify and apply core techniques can substantially improve their mathematical reasoning",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "DeepInsightTheorem"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0012",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.16278",
+      "paper_title": "Learning to Reason with Insight for Informal Theorem Proving",
+      "paper_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "primary_category": "cs.AI",
+      "text": "we propose a novel framework designed to cultivate this essential reasoning skill and enable LLMs to perform insightful reasoning",
+      "method_name": null,
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "DeepInsightTheorem"
+      ],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0013",
+      "type": "limitation",
+      "category": "limitation",
+      "paper_id": "2604.16278",
+      "paper_title": "Learning to Reason with Insight for Informal Theorem Proving",
+      "paper_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "primary_category": "cs.AI",
+      "text": "bottleneck in informal theorem proving as a lack of insight, namely the difficulty of recognizing the core techniques required to solve complex problems",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "DeepInsightTheorem"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0014",
+      "type": "limitation",
+      "category": "limitation",
+      "paper_id": "2604.16278",
+      "paper_title": "Learning to Reason with Insight for Informal Theorem Proving",
+      "paper_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "primary_category": "cs.AI",
+      "text": "bottleneck in informal theorem proving as a lack of insight, namely the difficulty of recognizing the core techniques required to solve complex problems",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "DeepInsightTheorem"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0015",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16275",
+      "paper_title": "No Universal Courtesy: A Cross-Linguistic, Multi-Model Study of Politeness Effects on LLMs Using the PLUM Corpus",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "politeness is a quantifiable computational variable that affects LLM behaviour, though its impact is language- and model-dependent rather than universal",
+      "context": "These results indicate that politeness is a quantifiable computational variable that affects LLM behaviour, though its impact is language- and model-dependent rather than universal",
+      "models_mentioned": [
+        "Llama",
+        "DeepSeek-Chat",
+        "Claude 3.7 Sonnet",
+        "Gemini"
+      ],
+      "benchmarks_mentioned": [
+        "PLUM"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0016",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16275",
+      "paper_title": "No Universal Courtesy: A Cross-Linguistic, Multi-Model Study of Politeness Effects on LLMs Using the PLUM Corpus",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "politeness is a quantifiable computational variable that affects LLM behaviour, though its impact is language- and model-dependent rather than universal",
+      "context": "results indicate that politeness is a quantifiable computational variable that affects LLM behaviour, though its impact is language- and model-dependent rather than universal",
+      "models_mentioned": [
+        "Llama",
+        "DeepSeek-Chat",
+        "Claude 3.7 Sonnet",
+        "Gemini"
+      ],
+      "benchmarks_mentioned": [
+        "PLUM"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0017",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16275",
+      "paper_title": "No Universal Courtesy: A Cross-Linguistic, Multi-Model Study of Politeness Effects on LLMs Using the PLUM Corpus",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "model performance is highly influenced by tone, dialogue history, and language",
+      "context": "findings show that model performance is highly influenced by tone, dialogue history, and language",
+      "models_mentioned": [
+        "Llama",
+        "DeepSeek-Chat",
+        "Claude 3.7 Sonnet",
+        "Gemini"
+      ],
+      "benchmarks_mentioned": [
+        "PLUM"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0018",
+      "type": "limitation",
+      "category": "limitation",
+      "paper_id": "2604.16270",
+      "paper_title": "From Benchmarking to Reasoning: A Dual-Aspect, Large-Scale Evaluation of LLMs on Vietnamese Legal Text",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL",
+      "text": "barrier to public access to justice",
+      "models_mentioned": [
+        "Claude 3 Opus",
+        "Gemini"
+      ],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0019",
+      "type": "limitation",
+      "category": "limitation",
+      "paper_id": "2604.16270",
+      "paper_title": "From Benchmarking to Reasoning: A Dual-Aspect, Large-Scale Evaluation of LLMs on Vietnamese Legal Text",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL",
+      "text": "challenge for current LLMs is not summarization but controlled, accurate legal reasoning",
+      "models_mentioned": [
+        "Claude 3 Opus",
+        "Gemini"
+      ],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0020",
+      "type": "limitation",
+      "category": "limitation",
+      "paper_id": "2604.16270",
+      "paper_title": "From Benchmarking to Reasoning: A Dual-Aspect, Large-Scale Evaluation of LLMs on Vietnamese Legal Text",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL",
+      "text": "significant barrier to public access to justice",
+      "models_mentioned": [
+        "Claude 3 Opus",
+        "Gemini"
+      ],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0021",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16264",
+      "paper_title": "Information Router for Mitigating Modality Dominance in Vision-Language Models",
+      "paper_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "text": "explicitly modifying cross-modal information is an effective and complementary strategy for mitigating modality dominance in multi-modal reasoning models",
+      "context": "These findings demonstrate that explicitly modifying cross-modal information is an effective and complementary strategy for mitigating modality dominance in multi-modal reasoning models",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "MoIR"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0022",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16264",
+      "paper_title": "Information Router for Mitigating Modality Dominance in Vision-Language Models",
+      "paper_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "text": "\\textsc{MoIR} consistently demonstrates more balanced modality contribution, and improves robustness and downstream performance, particularly even under modality degradation",
+      "context": "results show that \\textsc{MoIR} consistently demonstrates more balanced modality contribution, and improves robustness and downstream performance, particularly even under modality degradation",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "MoIR"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0023",
+      "type": "limitation",
+      "category": "limitation",
+      "paper_id": "2604.16264",
+      "paper_title": "Information Router for Mitigating Modality Dominance in Vision-Language Models",
+      "paper_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "text": "is issue by steering model's attention allocation, implicitly assuming that all modalities provide sufficient information",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "MoIR"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0024",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16262",
+      "paper_title": "SwanNLP at SemEval-2026 Task 5: An LLM-based Framework for Plausibility Scoring in Narrative Word Sense Disambiguation",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "commercial large-parameter LLMs with dynamic few-shot prompting closely replicate human-like plausibility judgments",
+      "context": "Our results show that commercial large-parameter LLMs with dynamic few-shot prompting closely replicate human-like plausibility judgments",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0025",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16262",
+      "paper_title": "SwanNLP at SemEval-2026 Task 5: An LLM-based Framework for Plausibility Scoring in Narrative Word Sense Disambiguation",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "commercial large-parameter LLMs with dynamic few-shot prompting closely replicate human-like plausibility judgments",
+      "context": "results show that commercial large-parameter LLMs with dynamic few-shot prompting closely replicate human-like plausibility judgments",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0026",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16256",
+      "paper_title": "Do Vision-Language Models Truly Perform Vision Reasoning? A Rigorous Study of the Modality Gap",
+      "paper_categories": [
+        "cs.CV",
+        "cs.CL"
+      ],
+      "primary_category": "cs.CV",
+      "text": "current VLMs conduct reasoning primarily in the textual space, with limited genuine reliance on visual evidence",
+      "context": "These findings indicate that current VLMs conduct reasoning primarily in the textual space, with limited genuine reliance on visual evidence",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "CrossMath"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0027",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16256",
+      "paper_title": "Do Vision-Language Models Truly Perform Vision Reasoning? A Rigorous Study of the Modality Gap",
+      "paper_categories": [
+        "cs.CV",
+        "cs.CL"
+      ],
+      "primary_category": "cs.CV",
+      "text": "current VLMs conduct reasoning primarily in the textual space, with limited genuine reliance on visual evidence",
+      "context": "findings indicate that current VLMs conduct reasoning primarily in the textual space, with limited genuine reliance on visual evidence",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "CrossMath"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0028",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.16256",
+      "paper_title": "Do Vision-Language Models Truly Perform Vision Reasoning? A Rigorous Study of the Modality Gap",
+      "paper_categories": [
+        "cs.CV",
+        "cs.CL"
+      ],
+      "primary_category": "cs.CV",
+      "text": "we introduce CrossMath, a novel multimodal reasoning benchmark",
+      "method_name": null,
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "CrossMath"
+      ],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0029",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.16256",
+      "paper_title": "Do Vision-Language Models Truly Perform Vision Reasoning? A Rigorous Study of the Modality Gap",
+      "paper_categories": [
+        "cs.CV",
+        "cs.CL"
+      ],
+      "primary_category": "cs.CV",
+      "text": "we introduce CrossMath",
+      "method_name": "CrossMath",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "CrossMath"
+      ],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0030",
+      "type": "limitation",
+      "category": "limitation",
+      "paper_id": "2604.16256",
+      "paper_title": "Do Vision-Language Models Truly Perform Vision Reasoning? A Rigorous Study of the Modality Gap",
+      "paper_categories": [
+        "cs.CV",
+        "cs.CL"
+      ],
+      "primary_category": "cs.CV",
+      "text": "problem in text-only, image-only, and image+text formats guaranteeing identical task-relevant information, verified by human annotators",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "CrossMath"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0031",
+      "type": "limitation",
+      "category": "limitation",
+      "paper_id": "2604.16256",
+      "paper_title": "Do Vision-Language Models Truly Perform Vision Reasoning? A Rigorous Study of the Modality Gap",
+      "paper_categories": [
+        "cs.CV",
+        "cs.CL"
+      ],
+      "primary_category": "cs.CV",
+      "text": "remains unclear whether the superior performance of VLMs stems from genuine vision-grounded reasoning or relies predominantly on the reasoning capabilities of their textual backbones",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "CrossMath"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0032",
+      "type": "limitation",
+      "category": "limitation",
+      "paper_id": "2604.16256",
+      "paper_title": "Do Vision-Language Models Truly Perform Vision Reasoning? A Rigorous Study of the Modality Gap",
+      "paper_categories": [
+        "cs.CV",
+        "cs.CL"
+      ],
+      "primary_category": "cs.CV",
+      "text": "However, it remains unclear",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "CrossMath"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0033",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.16247",
+      "paper_title": "Joint-Centric Dual Contrastive Alignment with Structure-Preserving and Information-Balanced Regularization",
+      "paper_categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "text": "We propose HILBERT",
+      "method_name": "HILBERT",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "HILBERT"
+      ],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0034",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.16242",
+      "paper_title": "Detecting and Suppressing Reward Hacking with Gradient Fingerprints",
+      "paper_categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "primary_category": "cs.LG",
+      "text": "We propose Gradient",
+      "method_name": "Gradient",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "GRIFT",
+        "math"
+      ],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0035",
+      "type": "method",
+      "category": "method",
+      "paper_id": "2604.16241",
+      "paper_title": "BAGEL: Benchmarking Animal Knowledge Expertise in Language Models",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL",
+      "text": "We introduce BAGEL, a benchmark",
+      "method_name": null,
+      "is_novel": false,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "BAGEL"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0036",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.16241",
+      "paper_title": "BAGEL: Benchmarking Animal Knowledge Expertise in Language Models",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL",
+      "text": "We introduce BAGEL",
+      "method_name": "BAGEL",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "BAGEL"
+      ],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0037",
+      "type": "limitation",
+      "category": "limitation",
+      "paper_id": "2604.16241",
+      "paper_title": "BAGEL: Benchmarking Animal Knowledge Expertise in Language Models",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL",
+      "text": "remains unclear how well language models handle specialized animal-related knowledge under a unified closed-book evaluation protocol",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "BAGEL"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0038",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16235",
+      "paper_title": "Optimizing Korean-Centric LLMs via Token Pruning",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "token pruning significantly improves generation stability by eliminating language confusion, and in the case of machine translation, frequently enhances performance on Korean-specific tasks",
+      "context": "Our findings indicate that token pruning significantly improves generation stability by eliminating language confusion, and in the case of machine translation, frequently enhances performance on Korean-specific tasks",
+      "models_mentioned": [
+        "Llama-3",
+        "Gemma-3",
+        "Qwen3"
+      ],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0039",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16235",
+      "paper_title": "Optimizing Korean-Centric LLMs via Token Pruning",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "token pruning significantly improves generation stability by eliminating language confusion, and in the case of machine translation, frequently enhances performance on Korean-specific tasks",
+      "context": "findings indicate that token pruning significantly improves generation stability by eliminating language confusion, and in the case of machine translation, frequently enhances performance on Korean-specific tasks",
+      "models_mentioned": [
+        "Llama-3",
+        "Gemma-3",
+        "Qwen3"
+      ],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0040",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16217",
+      "paper_title": "Beyond Surface Statistics: Robust Conformal Prediction for LLMs via Internal Representations",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL",
+      "text": "internal representations can provide more informative conformal scores when surface-level uncertainty is unstable under distribution shift",
+      "context": "These results suggest that internal representations can provide more informative conformal scores when surface-level uncertainty is unstable under distribution shift",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0041",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.16217",
+      "paper_title": "Beyond Surface Statistics: Robust Conformal Prediction for LLMs via Internal Representations",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL",
+      "text": "we introduce Layer-Wise",
+      "method_name": "Layer-Wise",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0042",
+      "type": "method",
+      "category": "method",
+      "paper_id": "2604.16205",
+      "paper_title": "ChemGraph-XANES: An Agentic Framework for XANES Simulation and Analysis",
+      "paper_categories": [
+        "cond-mat.mtrl-sci",
+        "cs.AI",
+        "physics.chem-ph"
+      ],
+      "primary_category": "cond-mat.mtrl-sci",
+      "text": "we present ChemGraph-XANES, an agentic framework",
+      "method_name": null,
+      "is_novel": false,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "ChemGraph-XANES"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0043",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.16205",
+      "paper_title": "ChemGraph-XANES: An Agentic Framework for XANES Simulation and Analysis",
+      "paper_categories": [
+        "cond-mat.mtrl-sci",
+        "cs.AI",
+        "physics.chem-ph"
+      ],
+      "primary_category": "cond-mat.mtrl-sci",
+      "text": "we present ChemGraph-XANES",
+      "method_name": "ChemGraph-XANES",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "ChemGraph-XANES"
+      ],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0044",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.16197",
+      "paper_title": "Sketching the Readout of Large Language Models for Scalable Data Attribution and Valuation",
+      "paper_categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "text": "we introduce RISE",
+      "method_name": "RISE",
+      "is_novel": true,
+      "models_mentioned": [
+        "OLMo",
+        "Pythia"
+      ],
+      "benchmarks_mentioned": [
+        "RISE"
+      ],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0045",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16171",
+      "paper_title": "JumpLoRA: Sparse Adapters for Continual Learning in Large Language Models",
+      "paper_categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "primary_category": "cs.LG",
+      "text": "our method is highly modular and compatible with LoRA-based CL approaches",
+      "context": "We demonstrate that our method is highly modular and compatible with LoRA-based CL approaches",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "JumpLoRA"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0046",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.16171",
+      "paper_title": "JumpLoRA: Sparse Adapters for Continual Learning in Large Language Models",
+      "paper_categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "primary_category": "cs.LG",
+      "text": "we propose JumpLoRA",
+      "method_name": "JumpLoRA",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "JumpLoRA"
+      ],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0047",
+      "type": "method",
+      "category": "method",
+      "paper_id": "2604.16158",
+      "paper_title": "AtManRL: Towards Faithful Reasoning via Differentiable Attention Saliency",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CL",
+      "text": "We introduce AtManRL, a method",
+      "method_name": null,
+      "is_novel": false,
+      "models_mentioned": [
+        "Llama-3.2-3B"
+      ],
+      "benchmarks_mentioned": [
+        "MMLU",
+        "AtManRL",
+        "GSM8K"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0048",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.16158",
+      "paper_title": "AtManRL: Towards Faithful Reasoning via Differentiable Attention Saliency",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CL",
+      "text": "We introduce AtManRL",
+      "method_name": "AtManRL",
+      "is_novel": true,
+      "models_mentioned": [
+        "Llama-3.2-3B"
+      ],
+      "benchmarks_mentioned": [
+        "MMLU",
+        "AtManRL",
+        "GSM8K"
+      ],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0049",
+      "type": "result",
+      "category": "numerical_result",
+      "paper_id": "2604.16138",
+      "paper_title": "Sentiment Analysis of German Sign Language Fairy Tales",
+      "paper_categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CL",
+      "text": "accuracy of 0.631",
+      "value": "0.631",
+      "confidence": "medium",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0050",
+      "type": "result",
+      "category": "numerical_result",
+      "paper_id": "2604.16138",
+      "paper_title": "Sentiment Analysis of German Sign Language Fairy Tales",
+      "paper_categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CL",
+      "text": "accuracy of 0.631",
+      "value": "0.631",
+      "confidence": "medium",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0051",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16138",
+      "paper_title": "Sentiment Analysis of German Sign Language Fairy Tales",
+      "paper_categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CL",
+      "text": "an average balanced accuracy of 0",
+      "context": "Results show an average balanced accuracy of 0",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0052",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16132",
+      "paper_title": "Can LLMs Understand the Impact of Trauma? Costs and Benefits of LLMs Coding the Interviews of Firearm Violence Survivors",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL",
+      "text": "while some configurations of LLMs can identify important codes, overall relevance remains low and is highly sensitive to data processing",
+      "context": "Our results demonstrate that while some configurations of LLMs can identify important codes, overall relevance remains low and is highly sensitive to data processing",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0053",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16132",
+      "paper_title": "Can LLMs Understand the Impact of Trauma? Costs and Benefits of LLMs Coding the Interviews of Firearm Violence Survivors",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL",
+      "text": "while some configurations of LLMs can identify important codes, overall relevance remains low and is highly sensitive to data processing",
+      "context": "results demonstrate that while some configurations of LLMs can identify important codes, overall relevance remains low and is highly sensitive to data processing",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0054",
+      "type": "result",
+      "category": "numerical_result",
+      "paper_id": "2604.16104",
+      "paper_title": "Dual-Modal Lung Cancer AI: Interpretable Radiology and Microscopy with Clinical Risk Integration",
+      "paper_categories": [
+        "eess.IV",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "primary_category": "eess.IV",
+      "text": "accuracy up to 0.87",
+      "value": "0.87",
+      "confidence": "medium",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0055",
+      "type": "result",
+      "category": "numerical_result",
+      "paper_id": "2604.16104",
+      "paper_title": "Dual-Modal Lung Cancer AI: Interpretable Radiology and Microscopy with Clinical Risk Integration",
+      "paper_categories": [
+        "eess.IV",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "primary_category": "eess.IV",
+      "text": "score of 0.88",
+      "value": "0.88",
+      "confidence": "medium",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0056",
+      "type": "result",
+      "category": "numerical_result",
+      "paper_id": "2604.16104",
+      "paper_title": "Dual-Modal Lung Cancer AI: Interpretable Radiology and Microscopy with Clinical Risk Integration",
+      "paper_categories": [
+        "eess.IV",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "primary_category": "eess.IV",
+      "text": "accuracy up to 0.87",
+      "value": "0.87",
+      "confidence": "medium",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0057",
+      "type": "result",
+      "category": "numerical_result",
+      "paper_id": "2604.16104",
+      "paper_title": "Dual-Modal Lung Cancer AI: Interpretable Radiology and Microscopy with Clinical Risk Integration",
+      "paper_categories": [
+        "eess.IV",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "primary_category": "eess.IV",
+      "text": "AUROC above 0.97",
+      "value": "0.97",
+      "confidence": "medium",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0058",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16104",
+      "paper_title": "Dual-Modal Lung Cancer AI: Interpretable Radiology and Microscopy with Clinical Risk Integration",
+      "paper_categories": [
+        "eess.IV",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "primary_category": "eess.IV",
+      "text": "multimodal fusion of radiology and histopathology can improve diagnostic performance while maintaining model transparency, suggesting potential for future clinical decision support systems in precision oncology",
+      "context": "These results indicate that multimodal fusion of radiology and histopathology can improve diagnostic performance while maintaining model transparency, suggesting potential for future clinical decision support systems in precision oncology",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0059",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16104",
+      "paper_title": "Dual-Modal Lung Cancer AI: Interpretable Radiology and Microscopy with Clinical Risk Integration",
+      "paper_categories": [
+        "eess.IV",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "primary_category": "eess.IV",
+      "text": "strong performance with accuracy up to 0",
+      "context": "results show strong performance with accuracy up to 0",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0060",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16104",
+      "paper_title": "Dual-Modal Lung Cancer AI: Interpretable Radiology and Microscopy with Clinical Risk Integration",
+      "paper_categories": [
+        "eess.IV",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "primary_category": "eess.IV",
+      "text": "multimodal fusion of radiology and histopathology can improve diagnostic performance while maintaining model transparency, suggesting potential for future clinical decision support systems in precision oncology",
+      "context": "results indicate that multimodal fusion of radiology and histopathology can improve diagnostic performance while maintaining model transparency, suggesting potential for future clinical decision support systems in precision oncology",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0061",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16060",
+      "paper_title": "Chain-of-Thought Degrades Visual Spatial Reasoning Capabilities of Multimodal LLMs",
+      "paper_categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "text": "this paradigm struggles with generalized spatial intelligence",
+      "context": "we show that this paradigm struggles with generalized spatial intelligence",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0062",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16060",
+      "paper_title": "Chain-of-Thought Degrades Visual Spatial Reasoning Capabilities of Multimodal LLMs",
+      "paper_categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "text": "MRMs and CoT prompted MLMs suffer from severe shortcut learning, and hallucinate visual details from textual priors even when the image is absent",
+      "context": "we demonstrate that MRMs and CoT prompted MLMs suffer from severe shortcut learning, and hallucinate visual details from textual priors even when the image is absent",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0063",
+      "type": "method",
+      "category": "method",
+      "paper_id": "2604.16058",
+      "paper_title": "LLMSniffer: Detecting LLM-Generated Code via GraphCodeBERT and Supervised Contrastive Learning",
+      "paper_categories": [
+        "cs.SE",
+        "cs.CL"
+      ],
+      "primary_category": "cs.SE",
+      "text": "We present LLMSniffer, a detection framework",
+      "method_name": null,
+      "is_novel": false,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "GPTSniffer",
+        "Whodunit"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0064",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.16058",
+      "paper_title": "LLMSniffer: Detecting LLM-Generated Code via GraphCodeBERT and Supervised Contrastive Learning",
+      "paper_categories": [
+        "cs.SE",
+        "cs.CL"
+      ],
+      "primary_category": "cs.SE",
+      "text": "We present LLMSniffer",
+      "method_name": "LLMSniffer",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "GPTSniffer",
+        "Whodunit"
+      ],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0065",
+      "type": "result",
+      "category": "numerical_result",
+      "paper_id": "2604.16054",
+      "paper_title": "Mind's Eye: A Benchmark of Visual Abstraction, Transformation and Composition for Multimodal LLMs",
+      "paper_categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "text": "achieve 80% accuracy",
+      "value": "80",
+      "confidence": "medium",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "Mind's Eye"
+      ],
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0066",
+      "type": "result",
+      "category": "numerical_result",
+      "paper_id": "2604.16054",
+      "paper_title": "Mind's Eye: A Benchmark of Visual Abstraction, Transformation and Composition for Multimodal LLMs",
+      "paper_categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "text": "80% accuracy",
+      "value": "80",
+      "confidence": "medium",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "Mind's Eye"
+      ],
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0067",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16054",
+      "paper_title": "Mind's Eye: A Benchmark of Visual Abstraction, Transformation and Composition for Multimodal LLMs",
+      "paper_categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "text": "current MLLMs exhibit limited visuospatial reasoning capabilities, when compared with human participants, highlighting the need for more cognitively grounded evaluation frameworks",
+      "context": "findings suggest that current MLLMs exhibit limited visuospatial reasoning capabilities, when compared with human participants, highlighting the need for more cognitively grounded evaluation frameworks",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "Mind's Eye"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0068",
+      "type": "method",
+      "category": "method",
+      "paper_id": "2604.16054",
+      "paper_title": "Mind's Eye: A Benchmark of Visual Abstraction, Transformation and Composition for Multimodal LLMs",
+      "paper_categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "text": "We introduce \"Mind's Eye\", a multiple-choice benchmark",
+      "method_name": null,
+      "is_novel": false,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "Mind's Eye"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0069",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16037",
+      "paper_title": "Stochasticity in Tokenisation Improves Robustness",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "pre-training and fine-tuning with uniformly sampled stochastic tokenisations improve robustness to random and adversarial perturbations",
+      "context": "We show that pre-training and fine-tuning with uniformly sampled stochastic tokenisations improve robustness to random and adversarial perturbations",
+      "models_mentioned": [
+        "Llama-"
+      ],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0070",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16037",
+      "paper_title": "Stochasticity in Tokenisation Improves Robustness",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "training with stochastic tokenisation preserves accuracy without increasing inference cost",
+      "context": "We find that training with stochastic tokenisation preserves accuracy without increasing inference cost",
+      "models_mentioned": [
+        "Llama-"
+      ],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0071",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16037",
+      "paper_title": "Stochasticity in Tokenisation Improves Robustness",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "training with stochastic tokenisation preserves accuracy without increasing inference cost",
+      "context": "We find that training with stochastic tokenisation preserves accuracy without increasing inference cost",
+      "models_mentioned": [
+        "Llama-"
+      ],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0072",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16027",
+      "paper_title": "Where does output diversity collapse in post-training?",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CL",
+      "text": "the location of collapse co-varies with data composition: the Think lineage loses most semantic diversity at supervised fine-tuning, and the effect of DPO is larger in Instruct than in Think",
+      "context": "We find that the location of collapse co-varies with data composition: the Think lineage loses most semantic diversity at supervised fine-tuning, and the effect of DPO is larger in Instruct than in Think",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0073",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16027",
+      "paper_title": "Where does output diversity collapse in post-training?",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CL",
+      "text": "diversity collapse is determined during training by data composition and cannot be addressed at inference time alone",
+      "context": "Our results indicate that diversity collapse is determined during training by data composition and cannot be addressed at inference time alone",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0074",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16027",
+      "paper_title": "Where does output diversity collapse in post-training?",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CL",
+      "text": "diversity collapse is determined during training by data composition and cannot be addressed at inference time alone",
+      "context": "results indicate that diversity collapse is determined during training by data composition and cannot be addressed at inference time alone",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0075",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16027",
+      "paper_title": "Where does output diversity collapse in post-training?",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CL",
+      "text": "the location of collapse co-varies with data composition: the Think lineage loses most semantic diversity at supervised fine-tuning, and the effect of DPO is larger in Instruct than in Think",
+      "context": "We find that the location of collapse co-varies with data composition: the Think lineage loses most semantic diversity at supervised fine-tuning, and the effect of DPO is larger in Instruct than in Think",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0076",
+      "type": "result",
+      "category": "numerical_result",
+      "paper_id": "2604.16022",
+      "paper_title": "SocialGrid: A Benchmark for Planning and Social Reasoning in Embodied Multi-Agent Systems",
+      "paper_categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.MA"
+      ],
+      "primary_category": "cs.AI",
+      "text": "60% accuracy",
+      "value": "60",
+      "confidence": "medium",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "SocialGrid"
+      ],
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0077",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.16022",
+      "paper_title": "SocialGrid: A Benchmark for Planning and Social Reasoning in Embodied Multi-Agent Systems",
+      "paper_categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.MA"
+      ],
+      "primary_category": "cs.AI",
+      "text": "We introduce SocialGrid",
+      "method_name": "SocialGrid",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "SocialGrid"
+      ],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0078",
+      "type": "limitation",
+      "category": "limitation",
+      "paper_id": "2604.16022",
+      "paper_title": "SocialGrid: A Benchmark for Planning and Social Reasoning in Embodied Multi-Agent Systems",
+      "paper_categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.MA"
+      ],
+      "primary_category": "cs.AI",
+      "text": "fail to detect deception at near-random chance regardless of scale, relying on shallow heuristics rather than accumulating behavioral evidence",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "SocialGrid"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0079",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16021",
+      "paper_title": "Neurosymbolic Repo-level Code Localization",
+      "paper_categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "primary_category": "cs.SE",
+      "text": "a critical yet overlooked bias: these benchmarks are saturated with keyword references (e",
+      "context": "we identify a critical yet overlooked bias: these benchmarks are saturated with keyword references (e",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "drop",
+        "KA-LogicQuery"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0080",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16021",
+      "paper_title": "Neurosymbolic Repo-level Code Localization",
+      "paper_categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "primary_category": "cs.SE",
+      "text": "LogicLoc significantly outperforms SOTA methods on KA-LogicQuery while maintaining competitive performance on popular issue-driven benchmarks",
+      "context": "results demonstrate that LogicLoc significantly outperforms SOTA methods on KA-LogicQuery while maintaining competitive performance on popular issue-driven benchmarks",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "drop",
+        "KA-LogicQuery"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0081",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.16021",
+      "paper_title": "Neurosymbolic Repo-level Code Localization",
+      "paper_categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "primary_category": "cs.SE",
+      "text": "We propose LogicLoc",
+      "method_name": "LogicLoc",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "drop",
+        "KA-LogicQuery"
+      ],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0082",
+      "type": "limitation",
+      "category": "limitation",
+      "paper_id": "2604.16021",
+      "paper_title": "Neurosymbolic Repo-level Code Localization",
+      "paper_categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "primary_category": "cs.SE",
+      "text": "challenge of Keyword-Agnostic Logical Code Localization (KA-LCL) and introduce KA-LogicQuery, a diagnostic benchmark requiring structural reasoning without any naming hints",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "drop",
+        "KA-LogicQuery"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0083",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.16009",
+      "paper_title": "MEDLEY-BENCH: Scale Buys Evaluation but Not Control in AI Metacognition",
+      "paper_categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "text": "a robust evaluation/control dissociation: evaluation ability increases with model size within families, whereas control does not",
+      "context": "Results show a robust evaluation/control dissociation: evaluation ability increases with model size within families, whereas control does not",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "MEDLEY-BENCH"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0084",
+      "type": "method",
+      "category": "method",
+      "paper_id": "2604.16009",
+      "paper_title": "MEDLEY-BENCH: Scale Buys Evaluation but Not Control in AI Metacognition",
+      "paper_categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "text": "We introduce MEDLEY-BENCH, a benchmark",
+      "method_name": null,
+      "is_novel": false,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "MEDLEY-BENCH"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0085",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.16009",
+      "paper_title": "MEDLEY-BENCH: Scale Buys Evaluation but Not Control in AI Metacognition",
+      "paper_categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "text": "We introduce MEDLEY-BENCH",
+      "method_name": "MEDLEY-BENCH",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "MEDLEY-BENCH"
+      ],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0086",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.16004",
+      "paper_title": "AgentV-RL: Scaling Reward Modeling with Agentic Verifier",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL",
+      "text": "we propose Agentic",
+      "method_name": "Agentic",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0087",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.16004",
+      "paper_title": "AgentV-RL: Scaling Reward Modeling with Agentic Verifier",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL",
+      "text": "we propose AgentV-RL",
+      "method_name": "AgentV-RL",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0088",
+      "type": "method",
+      "category": "method",
+      "paper_id": "2604.15994",
+      "paper_title": "ReactBench: A Benchmark for Topological Reasoning in MLLMs on Chemical Reaction Diagrams",
+      "paper_categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "text": "We introduce ReactBench, a benchmark",
+      "method_name": null,
+      "is_novel": false,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "ReactBench"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0089",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15994",
+      "paper_title": "ReactBench: A Benchmark for Topological Reasoning in MLLMs on Chemical Reaction Diagrams",
+      "paper_categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "text": "We introduce ReactBench",
+      "method_name": "ReactBench",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "ReactBench"
+      ],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0090",
+      "type": "limitation",
+      "category": "limitation",
+      "paper_id": "2604.15994",
+      "paper_title": "ReactBench: A Benchmark for Topological Reasoning in MLLMs on Chemical Reaction Diagrams",
+      "paper_categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "text": "fail to probe this gap, focusing on semantic comprehension rather than structural reasoning",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "ReactBench"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0091",
+      "type": "result",
+      "category": "numerical_result",
+      "paper_id": "2604.15972",
+      "paper_title": "Weak-Link Optimization for Multi-Agent Reasoning and Collaboration",
+      "paper_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.MA"
+      ],
+      "primary_category": "cs.AI",
+      "text": "accuracy of 82.2",
+      "value": "82.2",
+      "confidence": "medium",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0092",
+      "type": "result",
+      "category": "numerical_result",
+      "paper_id": "2604.15972",
+      "paper_title": "Weak-Link Optimization for Multi-Agent Reasoning and Collaboration",
+      "paper_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.MA"
+      ],
+      "primary_category": "cs.AI",
+      "text": "accuracy of 82.2",
+      "value": "82.2",
+      "confidence": "medium",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0093",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15972",
+      "paper_title": "Weak-Link Optimization for Multi-Agent Reasoning and Collaboration",
+      "paper_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.MA"
+      ],
+      "primary_category": "cs.AI",
+      "text": "WORC achieves an average accuracy of 82",
+      "context": "results show that WORC achieves an average accuracy of 82",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0094",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15972",
+      "paper_title": "Weak-Link Optimization for Multi-Agent Reasoning and Collaboration",
+      "paper_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.MA"
+      ],
+      "primary_category": "cs.AI",
+      "text": "we propose WORC",
+      "method_name": "WORC",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0095",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15945",
+      "paper_title": "RAGognizer: Hallucination-Aware Fine-Tuning via Detection Head Integration",
+      "paper_categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CL",
+      "text": "hallucination detection based on internal state representation can also serve as a direct training signal",
+      "context": "we demonstrate that hallucination detection based on internal state representation can also serve as a direct training signal",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0096",
+      "type": "method",
+      "category": "method",
+      "paper_id": "2604.15945",
+      "paper_title": "RAGognizer: Hallucination-Aware Fine-Tuning via Detection Head Integration",
+      "paper_categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CL",
+      "text": "We introduce RAGognize, a dataset of naturally occurring closed-domain hallucinations with token-level annotations, and RAGognizer, a hallucination-aware fine-tuning approach",
+      "method_name": null,
+      "is_novel": false,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0097",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15945",
+      "paper_title": "RAGognizer: Hallucination-Aware Fine-Tuning via Detection Head Integration",
+      "paper_categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CL",
+      "text": "We introduce RAGognize",
+      "method_name": "RAGognize",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0098",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15937",
+      "paper_title": "Polarization by Default: Auditing Recommendation Bias in LLM-Based Content Curation",
+      "paper_categories": [
+        "cs.SI",
+        "cs.AI",
+        "cs.CL",
+        "cs.CY",
+        "cs.MA"
+      ],
+      "primary_category": "cs.SI",
+      "text": "biases differ substantially in how structural and how prompt-sensitive they are",
+      "context": "we find that biases differ substantially in how structural and how prompt-sensitive they are",
+      "models_mentioned": [
+        "Gemini exhibit",
+        "Gemini shows",
+        "Claude and"
+      ],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0099",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15937",
+      "paper_title": "Polarization by Default: Auditing Recommendation Bias in LLM-Based Content Curation",
+      "paper_categories": [
+        "cs.SI",
+        "cs.AI",
+        "cs.CL",
+        "cs.CY",
+        "cs.MA"
+      ],
+      "primary_category": "cs.SI",
+      "text": "biases differ substantially in how structural and how prompt-sensitive they are",
+      "context": "we find that biases differ substantially in how structural and how prompt-sensitive they are",
+      "models_mentioned": [
+        "Gemini exhibit",
+        "Gemini shows",
+        "Claude and"
+      ],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0100",
+      "type": "limitation",
+      "category": "limitation",
+      "paper_id": "2604.15873",
+      "paper_title": "How Hypocritical Is Your LLM judge? Listener-Speaker Asymmetries in the Pragmatic Competence of Large Language Models",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "remains unclear whether success in one role aligns with success in the other",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0101",
+      "type": "method",
+      "category": "method",
+      "paper_id": "2604.15871",
+      "paper_title": "UniEditBench: A Unified and Cost-Effective Benchmark for Image and Video Editing via Distilled MLLMs",
+      "paper_categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "text": "We present UniEditBench, a unified benchmark for image and video editing that supports reconstruction-based and instruction-driven method",
+      "method_name": null,
+      "is_novel": false,
+      "models_mentioned": [
+        "Qwen3-"
+      ],
+      "benchmarks_mentioned": [
+        "UniEditBench"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0102",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15871",
+      "paper_title": "UniEditBench: A Unified and Cost-Effective Benchmark for Image and Video Editing via Distilled MLLMs",
+      "paper_categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "text": "We present UniEditBench",
+      "method_name": "UniEditBench",
+      "is_novel": true,
+      "models_mentioned": [
+        "Qwen3-"
+      ],
+      "benchmarks_mentioned": [
+        "UniEditBench"
+      ],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0103",
+      "type": "result",
+      "category": "numerical_result",
+      "paper_id": "2604.15866",
+      "paper_title": "DiZiNER: Disagreement-guided Instruction Refinement via Pilot Annotation Simulation for Zero-shot Named Entity Recognition",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CL",
+      "text": "8.0 F1",
+      "value": "8.0",
+      "confidence": "medium",
+      "models_mentioned": [
+        "GPT-5"
+      ],
+      "benchmarks_mentioned": [],
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0104",
+      "type": "method",
+      "category": "method",
+      "paper_id": "2604.15866",
+      "paper_title": "DiZiNER: Disagreement-guided Instruction Refinement via Pilot Annotation Simulation for Zero-shot Named Entity Recognition",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CL",
+      "text": "we introduce DiZiNER (Disagreement-guided Instruction Refinement via Pilot Annotation Simulation for Zero-shot Named Entity Recognition), a framework",
+      "method_name": null,
+      "is_novel": false,
+      "models_mentioned": [
+        "GPT-5"
+      ],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0105",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15866",
+      "paper_title": "DiZiNER: Disagreement-guided Instruction Refinement via Pilot Annotation Simulation for Zero-shot Named Entity Recognition",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CL",
+      "text": "we introduce DiZiNER",
+      "method_name": "DiZiNER",
+      "is_novel": true,
+      "models_mentioned": [
+        "GPT-5"
+      ],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0106",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15859",
+      "paper_title": "QuantSightBench: Evaluating LLM Quantitative Forecasting with Prediction Intervals",
+      "paper_categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "text": "none of the 11 evaluated frontier and open-weight models achieves the 90\\% coverage target, with the top performers Gemini 3",
+      "context": "Our results show that none of the 11 evaluated frontier and open-weight models achieves the 90\\% coverage target, with the top performers Gemini 3",
+      "models_mentioned": [
+        "Gemini",
+        "GPT-5.4"
+      ],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0107",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15859",
+      "paper_title": "QuantSightBench: Evaluating LLM Quantitative Forecasting with Prediction Intervals",
+      "paper_categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "text": "none of the 11 evaluated frontier and open-weight models achieves the 90\\% coverage target, with the top performers Gemini 3",
+      "context": "results show that none of the 11 evaluated frontier and open-weight models achieves the 90\\% coverage target, with the top performers Gemini 3",
+      "models_mentioned": [
+        "Gemini",
+        "GPT-5.4"
+      ],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0108",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15859",
+      "paper_title": "QuantSightBench: Evaluating LLM Quantitative Forecasting with Prediction Intervals",
+      "paper_categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "text": "we introduce a new benchmark",
+      "method_name": null,
+      "is_novel": true,
+      "models_mentioned": [
+        "Gemini",
+        "GPT-5.4"
+      ],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0109",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15851",
+      "paper_title": "DPrivBench: Benchmarking LLMs' Reasoning for Differential Privacy",
+      "paper_categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CR"
+      ],
+      "primary_category": "cs.LG",
+      "text": "several promising directions for improving automated DP reasoning",
+      "context": "we identify several promising directions for improving automated DP reasoning",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0110",
+      "type": "method",
+      "category": "method",
+      "paper_id": "2604.15851",
+      "paper_title": "DPrivBench: Benchmarking LLMs' Reasoning for Differential Privacy",
+      "paper_categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CR"
+      ],
+      "primary_category": "cs.LG",
+      "text": "We introduce DPrivBench, a benchmark",
+      "method_name": null,
+      "is_novel": false,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0111",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15851",
+      "paper_title": "DPrivBench: Benchmarking LLMs' Reasoning for Differential Privacy",
+      "paper_categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CR"
+      ],
+      "primary_category": "cs.LG",
+      "text": "We introduce DPrivBench",
+      "method_name": "DPrivBench",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0112",
+      "type": "limitation",
+      "category": "limitation",
+      "paper_id": "2604.15851",
+      "paper_title": "DPrivBench: Benchmarking LLMs' Reasoning for Differential Privacy",
+      "paper_categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CR"
+      ],
+      "primary_category": "cs.LG",
+      "text": "barrier for non-expert practitioners",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0113",
+      "type": "limitation",
+      "category": "limitation",
+      "paper_id": "2604.15851",
+      "paper_title": "DPrivBench: Benchmarking LLMs' Reasoning for Differential Privacy",
+      "paper_categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CR"
+      ],
+      "primary_category": "cs.LG",
+      "text": "barrier for non-expert practitioners",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0114",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15847",
+      "paper_title": "CiPO: Counterfactual Unlearning for Large Reasoning Models through Iterative Preference Optimization",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "we introduce Counterfactual Unlearning through iterative Preference Optimization (CiPO), a novel framework",
+      "method_name": null,
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0115",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15847",
+      "paper_title": "CiPO: Counterfactual Unlearning for Large Reasoning Models through Iterative Preference Optimization",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "we introduce Counterfactual",
+      "method_name": "Counterfactual",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0116",
+      "type": "limitation",
+      "category": "limitation",
+      "paper_id": "2604.15847",
+      "paper_title": "CiPO: Counterfactual Unlearning for Large Reasoning Models through Iterative Preference Optimization",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "struggle to completely eliminate undesired knowledge from the CoT traces or degrade the reasoning performances due to the interference with the reasoning process",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0117",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15841",
+      "paper_title": "Exploring the Capability Boundaries of LLMs in Mastering of Chinese Chouxiang Language",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "that, current state-of-the-art (SOTA) LLMs exhibit clear limitations on multiple tasks, while performing well on tasks that involve contextual semantic understanding",
+      "context": "results show that, current state-of-the-art (SOTA) LLMs exhibit clear limitations on multiple tasks, while performing well on tasks that involve contextual semantic understanding",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0118",
+      "type": "method",
+      "category": "method",
+      "paper_id": "2604.15841",
+      "paper_title": "Exploring the Capability Boundaries of LLMs in Mastering of Chinese Chouxiang Language",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "we introduce Mouse, a specialized benchmark",
+      "method_name": null,
+      "is_novel": false,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0119",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15841",
+      "paper_title": "Exploring the Capability Boundaries of LLMs in Mastering of Chinese Chouxiang Language",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "we introduce Mouse",
+      "method_name": "Mouse",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0120",
+      "type": "method",
+      "category": "method",
+      "paper_id": "2604.15839",
+      "paper_title": "Discover and Prove: An Open-source Agentic Framework for Hard Mode Automated Theorem Proving in Lean 4",
+      "paper_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LO"
+      ],
+      "primary_category": "cs.AI",
+      "text": "we introduce Discover And Prove (DAP), an agentic framework",
+      "method_name": null,
+      "is_novel": false,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0121",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15839",
+      "paper_title": "Discover and Prove: An Open-source Agentic Framework for Hard Mode Automated Theorem Proving in Lean 4",
+      "paper_categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LO"
+      ],
+      "primary_category": "cs.AI",
+      "text": "we introduce Discover",
+      "method_name": "Discover",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0122",
+      "type": "method",
+      "category": "method",
+      "paper_id": "2604.15808",
+      "paper_title": "Beyond a Single Frame: Multi-Frame Spatially Grounded Reasoning Across Volumetric MRI",
+      "paper_categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "text": "We introduce Spatially Grounded MRI Visual Question Answering (SGMRI-VQA), a 41,307-pair benchmark",
+      "method_name": null,
+      "is_novel": false,
+      "models_mentioned": [
+        "Qwen3-"
+      ],
+      "benchmarks_mentioned": [
+        "VQA"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0123",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15808",
+      "paper_title": "Beyond a Single Frame: Multi-Frame Spatially Grounded Reasoning Across Volumetric MRI",
+      "paper_categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "text": "We introduce Spatially",
+      "method_name": "Spatially",
+      "is_novel": true,
+      "models_mentioned": [
+        "Qwen3-"
+      ],
+      "benchmarks_mentioned": [
+        "VQA"
+      ],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0124",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15804",
+      "paper_title": "Qwen3.5-Omni Technical Report",
+      "paper_categories": [
+        "cs.CL",
+        "eess.AS"
+      ],
+      "primary_category": "cs.CL",
+      "text": "we introduce ARIA",
+      "method_name": "ARIA",
+      "is_novel": true,
+      "models_mentioned": [
+        "Qwen-",
+        "Gemini-3.1 Pro",
+        "Qwen3.5-"
+      ],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0125",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15804",
+      "paper_title": "Qwen3.5-Omni Technical Report",
+      "paper_categories": [
+        "cs.CL",
+        "eess.AS"
+      ],
+      "primary_category": "cs.CL",
+      "text": "we present Qwen3",
+      "method_name": "Qwen3",
+      "is_novel": true,
+      "models_mentioned": [
+        "Qwen-",
+        "Gemini-3.1 Pro",
+        "Qwen3.5-"
+      ],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0126",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15802",
+      "paper_title": "CHOP: Chunkwise Context-Preserving Framework for RAG on Multi Documents",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "we propose CHOP",
+      "method_name": "CHOP",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "CHOP"
+      ],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0127",
+      "type": "method",
+      "category": "method",
+      "paper_id": "2604.15794",
+      "paper_title": "Self-Distillation as a Performance Recovery Mechanism for LLMs: Counteracting Compression and Catastrophic Forgetting",
+      "paper_categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "primary_category": "cs.LG",
+      "text": "we introduce a performance recovery framework",
+      "method_name": null,
+      "is_novel": false,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0128",
+      "type": "method",
+      "category": "method",
+      "paper_id": "2604.15774",
+      "paper_title": "MemEvoBench: Benchmarking Memory MisEvolution in LLM Agents",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "we introduce MemEvoBench, the first benchmark",
+      "method_name": null,
+      "is_novel": false,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0129",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15774",
+      "paper_title": "MemEvoBench: Benchmarking Memory MisEvolution in LLM Agents",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "we introduce MemEvoBench",
+      "method_name": "MemEvoBench",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0130",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15771",
+      "paper_title": "Skill-RAG: Failure-State-Aware Retrieval Augmentation via Hidden-State Probing and Skill Routing",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "We propose Skill-RAG",
+      "method_name": "Skill-RAG",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0131",
+      "type": "method",
+      "category": "method",
+      "paper_id": "2604.15760",
+      "paper_title": "KWBench: Measuring Unprompted Problem Recognition in Knowledge Work",
+      "paper_categories": [
+        "cs.AI",
+        "cs.GT"
+      ],
+      "primary_category": "cs.AI",
+      "text": "We introduce the first version of KWBench (Knowledge Work Bench), a benchmark",
+      "method_name": null,
+      "is_novel": false,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0132",
+      "type": "limitation",
+      "category": "limitation",
+      "paper_id": "2604.15760",
+      "paper_title": "KWBench: Measuring Unprompted Problem Recognition in Knowledge Work",
+      "paper_categories": [
+        "cs.AI",
+        "cs.GT"
+      ],
+      "primary_category": "cs.AI",
+      "text": "fail to apply it unprompted",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0133",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15750",
+      "paper_title": "DepCap: Adaptive Block-Wise Parallel Decoding for Efficient Diffusion LM Inference",
+      "paper_categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "text": "DepCap achieves favorable speed-quality trade-offs across multiple DLM backbones and reasoning and coding benchmarks, with up to 5",
+      "context": "results show that DepCap achieves favorable speed-quality trade-offs across multiple DLM backbones and reasoning and coding benchmarks, with up to 5",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0134",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15750",
+      "paper_title": "DepCap: Adaptive Block-Wise Parallel Decoding for Efficient Diffusion LM Inference",
+      "paper_categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "text": "we propose DepCap",
+      "method_name": "DepCap",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0135",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15741",
+      "paper_title": "Learning Uncertainty from Sequential Internal Dispersion in Large Language Models",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL",
+      "text": "SIVR consistently outperforms strong baselines",
+      "context": "results demonstrate SIVR consistently outperforms strong baselines",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0136",
+      "type": "method",
+      "category": "method",
+      "paper_id": "2604.15741",
+      "paper_title": "Learning Uncertainty from Sequential Internal Dispersion in Large Language Models",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL",
+      "text": "we present Sequential Internal Variance Representation (SIVR), a supervised hallucination detection framework",
+      "method_name": null,
+      "is_novel": false,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0137",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15741",
+      "paper_title": "Learning Uncertainty from Sequential Internal Dispersion in Large Language Models",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL",
+      "text": "we present Sequential",
+      "method_name": "Sequential",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0138",
+      "type": "result",
+      "category": "numerical_result",
+      "paper_id": "2604.15736",
+      "paper_title": "RefereeBench: Are Video MLLMs Ready to be Multi-Sport Referees",
+      "paper_categories": [
+        "cs.CV",
+        "cs.CL"
+      ],
+      "primary_category": "cs.CV",
+      "text": "60% accuracy",
+      "value": "60",
+      "confidence": "medium",
+      "models_mentioned": [
+        "Gemini-3",
+        "Qwen3-"
+      ],
+      "benchmarks_mentioned": [],
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0139",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15736",
+      "paper_title": "RefereeBench: Are Video MLLMs Ready to be Multi-Sport Referees",
+      "paper_categories": [
+        "cs.CV",
+        "cs.CL"
+      ],
+      "primary_category": "cs.CV",
+      "text": "current models remain far from being reliable sports referees",
+      "context": "These results indicate that current models remain far from being reliable sports referees",
+      "models_mentioned": [
+        "Gemini-3",
+        "Qwen3-"
+      ],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0140",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15736",
+      "paper_title": "RefereeBench: Are Video MLLMs Ready to be Multi-Sport Referees",
+      "paper_categories": [
+        "cs.CV",
+        "cs.CL"
+      ],
+      "primary_category": "cs.CV",
+      "text": "current models remain far from being reliable sports referees",
+      "context": "results indicate that current models remain far from being reliable sports referees",
+      "models_mentioned": [
+        "Gemini-3",
+        "Qwen3-"
+      ],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0141",
+      "type": "method",
+      "category": "method",
+      "paper_id": "2604.15736",
+      "paper_title": "RefereeBench: Are Video MLLMs Ready to be Multi-Sport Referees",
+      "paper_categories": [
+        "cs.CV",
+        "cs.CL"
+      ],
+      "primary_category": "cs.CV",
+      "text": "we introduce RefereeBench, the first large-scale benchmark",
+      "method_name": null,
+      "is_novel": false,
+      "models_mentioned": [
+        "Gemini-3",
+        "Qwen3-"
+      ],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0142",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15736",
+      "paper_title": "RefereeBench: Are Video MLLMs Ready to be Multi-Sport Referees",
+      "paper_categories": [
+        "cs.CV",
+        "cs.CL"
+      ],
+      "primary_category": "cs.CV",
+      "text": "we introduce RefereeBench",
+      "method_name": "RefereeBench",
+      "is_novel": true,
+      "models_mentioned": [
+        "Gemini-3",
+        "Qwen3-"
+      ],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0143",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15726",
+      "paper_title": "LLM Reasoning Is Latent, Not the Chain of Thought",
+      "paper_categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "text": "current evidence most strongly supports H1 as a default working hypothesis rather than as a task-independent verdict",
+      "context": "we find that current evidence most strongly supports H1 as a default working hypothesis rather than as a task-independent verdict",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0144",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15726",
+      "paper_title": "LLM Reasoning Is Latent, Not the Chain of Thought",
+      "paper_categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "text": "current evidence most strongly supports H1 as a default working hypothesis rather than as a task-independent verdict",
+      "context": "we find that current evidence most strongly supports H1 as a default working hypothesis rather than as a task-independent verdict",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0145",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15725",
+      "paper_title": "Reasoning-targeted Jailbreak Attacks on Large Reasoning Models via Semantic Triggers and Psychological Framing",
+      "paper_categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "text": "a novel problem that injects harmful content into the reasoning steps while preserving unchanged answers",
+      "context": "we identify a novel problem that injects harmful content into the reasoning steps while preserving unchanged answers",
+      "models_mentioned": [
+        "Qwen2.5-",
+        "DeepSeek"
+      ],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0146",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15715",
+      "paper_title": "GTA-2: Benchmarking General Tool Agents from Atomic Tool-Use to Open-Ended Workflows",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL",
+      "text": "we propose GTA-2",
+      "method_name": "GTA-2",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "GTA-Workflow",
+        "GTA-Atomic"
+      ],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0147",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15701",
+      "paper_title": "Improving Reasoning Capabilities in Small Models through Mixture-of-Layers Distillation with Stepwise Attention on Key Information",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "language models exhibit progressive attention shifts towards key information during reasoning, which implies essential clues for drawing conclusions",
+      "context": "We find that language models exhibit progressive attention shifts towards key information during reasoning, which implies essential clues for drawing conclusions",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0148",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15701",
+      "paper_title": "Improving Reasoning Capabilities in Small Models through Mixture-of-Layers Distillation with Stepwise Attention on Key Information",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "language models exhibit progressive attention shifts towards key information during reasoning, which implies essential clues for drawing conclusions",
+      "context": "We find that language models exhibit progressive attention shifts towards key information during reasoning, which implies essential clues for drawing conclusions",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0149",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15701",
+      "paper_title": "Improving Reasoning Capabilities in Small Models through Mixture-of-Layers Distillation with Stepwise Attention on Key Information",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "we introduce a novel CoT distillation framework",
+      "method_name": null,
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0150",
+      "type": "limitation",
+      "category": "limitation",
+      "paper_id": "2604.15687",
+      "paper_title": "Preference Estimation via Opponent Modeling in Multi-Agent Negotiation",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "fail to capture the qualitative information embedded in natural language interactions, resulting in unstable and incomplete preference estimation",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0151",
+      "type": "limitation",
+      "category": "limitation",
+      "paper_id": "2604.15687",
+      "paper_title": "Preference Estimation via Opponent Modeling in Multi-Agent Negotiation",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "remains challenging to quantitatively incorporate such information into a consistent opponent modeling",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0152",
+      "type": "result",
+      "category": "numerical_result",
+      "paper_id": "2604.15672",
+      "paper_title": "Faster LLM Inference via Sequential Monte Carlo",
+      "paper_categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "primary_category": "cs.LG",
+      "text": "achieves 2.36x",
+      "value": "2.36",
+      "confidence": "medium",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0153",
+      "type": "method",
+      "category": "method",
+      "paper_id": "2604.15663",
+      "paper_title": "CodeMMR: Bridging Natural Language, Code, and Image for Unified Retrieval",
+      "paper_categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "primary_category": "cs.SE",
+      "text": "we introduce MMCoIR, the first comprehensive benchmark",
+      "method_name": null,
+      "is_novel": false,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0154",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15663",
+      "paper_title": "CodeMMR: Bridging Natural Language, Code, and Image for Unified Retrieval",
+      "paper_categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "primary_category": "cs.SE",
+      "text": "we introduce MMCoIR",
+      "method_name": "MMCoIR",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0155",
+      "type": "limitation",
+      "category": "limitation",
+      "paper_id": "2604.15663",
+      "paper_title": "CodeMMR: Bridging Natural Language, Code, and Image for Unified Retrieval",
+      "paper_categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "primary_category": "cs.SE",
+      "text": "challenge of the task through extensive evaluation",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0156",
+      "type": "method",
+      "category": "method",
+      "paper_id": "2604.15648",
+      "paper_title": "HyperGVL: Benchmarking and Improving Large Vision-Language Models in Hypergraph Understanding and Reasoning",
+      "paper_categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "primary_category": "cs.CL",
+      "text": "we introduce $\\texttt{HyperGVL}$, the first benchmark",
+      "method_name": null,
+      "is_novel": false,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0157",
+      "type": "limitation",
+      "category": "limitation",
+      "paper_id": "2604.15642",
+      "paper_title": "HYPERHEURIST: A Simulated Annealing-Based Control Framework for LLM-Driven Code Generation in Optimized Hardware Design",
+      "paper_categories": [
+        "cs.AR",
+        "cs.AI"
+      ],
+      "primary_category": "cs.AR",
+      "text": "struggles to consistently produce designs that are both functionally correct and power-efficient",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0158",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15628",
+      "paper_title": "SIMMER: Cross-Modal Food Image--Recipe Retrieval via MLLM-Based Embedding",
+      "paper_categories": [
+        "cs.CV",
+        "cs.CL",
+        "cs.IR",
+        "cs.LG",
+        "cs.MM"
+      ],
+      "primary_category": "cs.CV",
+      "text": "we propose SIMMER",
+      "method_name": "SIMMER",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0159",
+      "type": "method",
+      "category": "method",
+      "paper_id": "2604.15622",
+      "paper_title": "AdaVFM: Adaptive Vision Foundation Models for Edge Intelligence via LLM-Guided Execution",
+      "paper_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "text": "We present AdaVFM, an adaptive framework",
+      "method_name": null,
+      "is_novel": false,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0160",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15622",
+      "paper_title": "AdaVFM: Adaptive Vision Foundation Models for Edge Intelligence via LLM-Guided Execution",
+      "paper_categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "text": "We present AdaVFM",
+      "method_name": "AdaVFM",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0161",
+      "type": "method",
+      "category": "method",
+      "paper_id": "2604.15621",
+      "paper_title": "Rethinking the Necessity of Adaptive Retrieval-Augmented Generation through the Lens of Adaptive Listwise Ranking",
+      "paper_categories": [
+        "cs.IR",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "primary_category": "cs.IR",
+      "text": "we introduce a two-stage progressive distillation paradigm enhanced by data sampling and augmentation technique",
+      "method_name": null,
+      "is_novel": false,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0162",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15618",
+      "paper_title": "Majority Voting for Code Generation",
+      "paper_categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "text": "FMV is an effective test-time inference strategy, substantially boosting performance on LiveCodeBench without a large compute overhead",
+      "context": "We find that FMV is an effective test-time inference strategy, substantially boosting performance on LiveCodeBench without a large compute overhead",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "LiveCodeBench"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0163",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15618",
+      "paper_title": "Majority Voting for Code Generation",
+      "paper_categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "text": "this increases pass@1 on holdout tasks, but find no evidence of self-improvement beyond the base model's performance ceiling",
+      "context": "We demonstrate that this increases pass@1 on holdout tasks, but find no evidence of self-improvement beyond the base model's performance ceiling",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "LiveCodeBench"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0164",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15618",
+      "paper_title": "Majority Voting for Code Generation",
+      "paper_categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "text": "FMV is an effective test-time inference strategy, substantially boosting performance on LiveCodeBench without a large compute overhead",
+      "context": "We find that FMV is an effective test-time inference strategy, substantially boosting performance on LiveCodeBench without a large compute overhead",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [
+        "LiveCodeBench"
+      ],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0165",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15602",
+      "paper_title": "GroupDPO: Memory efficient Group-wise Direct Preference Optimization",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "leveraging multiple responses consistently outperforms single-pair training",
+      "context": "we show that leveraging multiple responses consistently outperforms single-pair training",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0166",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15597",
+      "paper_title": "LLMs Corrupt Your Documents When You Delegate",
+      "paper_categories": [
+        "cs.CL",
+        "cs.HC"
+      ],
+      "primary_category": "cs.CL",
+      "text": "We introduce DELEGATE-52",
+      "method_name": "DELEGATE-52",
+      "is_novel": true,
+      "models_mentioned": [
+        "Gemini",
+        "Claude 4.6 Opus"
+      ],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0167",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15593",
+      "paper_title": "DALM: A Domain-Algebraic Language Model via Three-Phase Structured Generation",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL",
+      "text": "We propose DALM",
+      "method_name": "DALM",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0168",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15589",
+      "paper_title": "LLM attribution analysis across different fine-tuning strategies and model scales for automated code compliance",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CL",
+      "text": "FFT produces attribution patterns that are statistically different and more focused than those from parameter-efficient fine-tuning methods",
+      "context": "Our results show that FFT produces attribution patterns that are statistically different and more focused than those from parameter-efficient fine-tuning methods",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0169",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15589",
+      "paper_title": "LLM attribution analysis across different fine-tuning strategies and model scales for automated code compliance",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CL",
+      "text": "FFT produces attribution patterns that are statistically different and more focused than those from parameter-efficient fine-tuning methods",
+      "context": "results show that FFT produces attribution patterns that are statistically different and more focused than those from parameter-efficient fine-tuning methods",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0170",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15588",
+      "paper_title": "\"Excuse me, may I say something...\" CoLabScience, A Proactive AI Assistant for Biomedical Discovery and LLM-Expert Collaborations",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CL",
+      "text": "PULI significantly outperforms existing baselines in both intervention precision and collaborative task utility, highlighting the potential of proactive LLMs as intelligent scientific assistants",
+      "context": "results show that PULI significantly outperforms existing baselines in both intervention precision and collaborative task utility, highlighting the potential of proactive LLMs as intelligent scientific assistants",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0171",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15588",
+      "paper_title": "\"Excuse me, may I say something...\" CoLabScience, A Proactive AI Assistant for Biomedical Discovery and LLM-Expert Collaborations",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CL",
+      "text": "we introduce BSDD (Biomedical Streaming Dialogue Dataset), a new benchmark",
+      "method_name": null,
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0172",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15588",
+      "paper_title": "\"Excuse me, may I say something...\" CoLabScience, A Proactive AI Assistant for Biomedical Discovery and LLM-Expert Collaborations",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CL",
+      "text": "we introduce CoLabScience",
+      "method_name": "CoLabScience",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0173",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15588",
+      "paper_title": "\"Excuse me, may I say something...\" CoLabScience, A Proactive AI Assistant for Biomedical Discovery and LLM-Expert Collaborations",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CL",
+      "text": "we introduce BSDD",
+      "method_name": "BSDD",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0174",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15547",
+      "paper_title": "Consistency Analysis of Sentiment Predictions using Syntactic & Semantic Context Assessment Summarization (SSAS)",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL",
+      "text": "our SSAS framework is capable of significantly improving data quality, up to 30%, through a combination of noise removal and improvement in the estimation of sentiment prediction",
+      "context": "Our results show that our SSAS framework is capable of significantly improving data quality, up to 30%, through a combination of noise removal and improvement in the estimation of sentiment prediction",
+      "models_mentioned": [
+        "Gemini"
+      ],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0175",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15547",
+      "paper_title": "Consistency Analysis of Sentiment Predictions using Syntactic & Semantic Context Assessment Summarization (SSAS)",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL",
+      "text": "our SSAS framework is capable of significantly improving data quality, up to 30%, through a combination of noise removal and improvement in the estimation of sentiment prediction",
+      "context": "results show that our SSAS framework is capable of significantly improving data quality, up to 30%, through a combination of noise removal and improvement in the estimation of sentiment prediction",
+      "models_mentioned": [
+        "Gemini"
+      ],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0176",
+      "type": "method",
+      "category": "method",
+      "paper_id": "2604.15547",
+      "paper_title": "Consistency Analysis of Sentiment Predictions using Syntactic & Semantic Context Assessment Summarization (SSAS)",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL",
+      "text": "we present a Syntactic & Semantic Context Assessment Summarization (SSAS) framework",
+      "method_name": null,
+      "is_novel": false,
+      "models_mentioned": [
+        "Gemini"
+      ],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0177",
+      "type": "limitation",
+      "category": "limitation",
+      "paper_id": "2604.15547",
+      "paper_title": "Consistency Analysis of Sentiment Predictions using Syntactic & Semantic Context Assessment Summarization (SSAS)",
+      "paper_categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL",
+      "text": "challenge of using Large Language Models (LLMs) for reliable, enterprise-grade analytics, such as sentiment prediction, is the conflict between the LLMs' inherent stochasticity (generative, non-deterministic nature) and the analytical requirement for consistency",
+      "models_mentioned": [
+        "Gemini"
+      ],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0178",
+      "type": "method",
+      "category": "method",
+      "paper_id": "2604.15529",
+      "paper_title": "LACE: Lattice Attention for Cross-thread Exploration",
+      "paper_categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "text": "We introduce LACE, a framework",
+      "method_name": null,
+      "is_novel": false,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0179",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15529",
+      "paper_title": "LACE: Lattice Attention for Cross-thread Exploration",
+      "paper_categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "text": "We introduce LACE",
+      "method_name": "LACE",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0180",
+      "type": "limitation",
+      "category": "limitation",
+      "paper_id": "2604.15529",
+      "paper_title": "LACE: Lattice Attention for Cross-thread Exploration",
+      "paper_categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "text": "challenge is the absence of natural training data that exhibits such collaborative behavior",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0181",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15503",
+      "paper_title": "Brain Score Tracks Shared Properties of Languages: Evidence from Many Natural Languages and Structured Sequences",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "models trained on various natural languages from many different language families have very similar BS performance",
+      "context": "We find that models trained on various natural languages from many different language families have very similar BS performance",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0182",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15503",
+      "paper_title": "Brain Score Tracks Shared Properties of Languages: Evidence from Many Natural Languages and Structured Sequences",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "BS can highlight language models' ability to extract common structure across natural languages, but that the metric may not be sensitive enough to allow us to infer human-like processing from a high BS score alone",
+      "context": "These findings suggest that BS can highlight language models' ability to extract common structure across natural languages, but that the metric may not be sensitive enough to allow us to infer human-like processing from a high BS score alone",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0183",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15503",
+      "paper_title": "Brain Score Tracks Shared Properties of Languages: Evidence from Many Natural Languages and Structured Sequences",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "BS can highlight language models' ability to extract common structure across natural languages, but that the metric may not be sensitive enough to allow us to infer human-like processing from a high BS score alone",
+      "context": "findings suggest that BS can highlight language models' ability to extract common structure across natural languages, but that the metric may not be sensitive enough to allow us to infer human-like processing from a high BS score alone",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0184",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15503",
+      "paper_title": "Brain Score Tracks Shared Properties of Languages: Evidence from Many Natural Languages and Structured Sequences",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "models trained on various natural languages from many different language families have very similar BS performance",
+      "context": "We find that models trained on various natural languages from many different language families have very similar BS performance",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0185",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15495",
+      "paper_title": "GIST: Multimodal Knowledge Extraction and Spatial Grounding via Intelligent Semantic Topology",
+      "paper_categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.HC",
+        "cs.RO"
+      ],
+      "primary_category": "cs.AI",
+      "text": "We present GIST",
+      "method_name": "GIST",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0186",
+      "type": "limitation",
+      "category": "limitation",
+      "paper_id": "2604.15495",
+      "paper_title": "GIST: Multimodal Knowledge Extraction and Spatial Grounding via Intelligent Semantic Topology",
+      "paper_categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.HC",
+        "cs.RO"
+      ],
+      "primary_category": "cs.AI",
+      "text": "challenge for humans and embodied AI",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0187",
+      "type": "method",
+      "category": "method",
+      "paper_id": "2604.15494",
+      "paper_title": "ProtoTTA: Prototype-Guided Test-Time Adaptation",
+      "paper_categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "primary_category": "cs.LG",
+      "text": "We introduce ProtoTTA, a general framework",
+      "method_name": null,
+      "is_novel": false,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0188",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15494",
+      "paper_title": "ProtoTTA: Prototype-Guided Test-Time Adaptation",
+      "paper_categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "primary_category": "cs.LG",
+      "text": "We introduce ProtoTTA",
+      "method_name": "ProtoTTA",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0189",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15490",
+      "paper_title": "Think Multilingual, Not Harder: A Data-Efficient Framework for Teaching Reasoning Models to Code-Switch",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "our framework can significantly increase beneficial code-switched reasoning behaviors in a data-efficient manner",
+      "context": "We find that our framework can significantly increase beneficial code-switched reasoning behaviors in a data-efficient manner",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0190",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15490",
+      "paper_title": "Think Multilingual, Not Harder: A Data-Efficient Framework for Teaching Reasoning Models to Code-Switch",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "our framework can significantly increase beneficial code-switched reasoning behaviors in a data-efficient manner",
+      "context": "We find that our framework can significantly increase beneficial code-switched reasoning behaviors in a data-efficient manner",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0191",
+      "type": "claim",
+      "category": "research_claim",
+      "paper_id": "2604.15490",
+      "paper_title": "Think Multilingual, Not Harder: A Data-Efficient Framework for Teaching Reasoning Models to Code-Switch",
+      "paper_categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "text": "code-switching behaviors in reasoning models can be modified by fine-tuning for tasks that do not directly demonstrate code-switching in reasoning (e",
+      "context": "we also find that code-switching behaviors in reasoning models can be modified by fine-tuning for tasks that do not directly demonstrate code-switching in reasoning (e",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0192",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15488",
+      "paper_title": "FineSteer: A Unified Framework for Fine-Grained Inference-Time Steering in Large Language Models",
+      "paper_categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "primary_category": "cs.LG",
+      "text": "we present FineSteer, a novel steering framework",
+      "method_name": null,
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0193",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15488",
+      "paper_title": "FineSteer: A Unified Framework for Fine-Grained Inference-Time Steering in Large Language Models",
+      "paper_categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "primary_category": "cs.LG",
+      "text": "we present FineSteer",
+      "method_name": "FineSteer",
+      "is_novel": true,
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0194",
+      "type": "limitation",
+      "category": "limitation",
+      "paper_id": "2604.15488",
+      "paper_title": "FineSteer: A Unified Framework for Fine-Grained Inference-Time Steering in Large Language Models",
+      "paper_categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "primary_category": "cs.LG",
+      "text": "fail to be simultaneously effective, utility-preserving, and training-efficient due to their rigid, one-size-fits-all designs and limited adaptability",
+      "models_mentioned": [],
+      "benchmarks_mentioned": [],
+      "confidence": "medium",
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0195",
+      "type": "result",
+      "category": "numerical_result",
+      "paper_id": "2604.15464",
+      "paper_title": "Ragged Paged Attention: A High-Performance and Flexible LLM Inference Kernel for TPU",
+      "paper_categories": [
+        "cs.PF",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.PF",
+      "text": "achieves up to 86% memory",
+      "value": "86",
+      "confidence": "medium",
+      "models_mentioned": [
+        "Llama"
+      ],
+      "benchmarks_mentioned": [],
+      "extraction_source": "abstract"
+    },
+    {
+      "id": "finding_0196",
+      "type": "method",
+      "category": "novel_method",
+      "paper_id": "2604.15464",
+      "paper_title": "Ragged Paged Attention: A High-Performance and Flexible LLM Inference Kernel for TPU",
+      "paper_categories": [
+        "cs.PF",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.PF",
+      "text": "we present Ragged",
+      "method_name": "Ragged",
+      "is_novel": true,
+      "models_mentioned": [
+        "Llama"
+      ],
+      "benchmarks_mentioned": [],
+      "confidence": "high",
+      "extraction_source": "abstract"
+    }
+  ],
+  "statistics": {
+    "by_type": {
+      "method": 82,
+      "claim": 71,
+      "limitation": 28,
+      "result": 15
+    },
+    "by_category": {
+      "cs.AI": 15,
+      "cs.LG": 21,
+      "cs.CL": 40,
+      "cs.CV": 10,
+      "cond-mat.mtrl-sci": 1,
+      "cs.ET": 1,
+      "eess.IV": 1,
+      "cs.SE": 4,
+      "cs.SI": 1,
+      "cs.CR": 1,
+      "cs.AR": 1,
+      "cs.IR": 1,
+      "astro-ph.EP": 1,
+      "cs.CY": 1,
+      "cs.PF": 1
+    },
+    "by_model": {
+      "Llama": 2,
+      "DeepSeek-Chat": 1,
+      "Claude 3.7 Sonnet": 1,
+      "Gemini": 5,
+      "Claude 3 Opus": 1,
+      "Qwen2.5-": 2,
+      "Qwen3-": 4,
+      "Llama-3.2-3B": 2,
+      "Llama-3": 1,
+      "Gemma-3": 1,
+      "Qwen3": 1,
+      "OLMo": 1,
+      "Pythia": 1,
+      "Llama-": 1,
+      "Gemini exhibit": 1,
+      "Gemini shows": 1,
+      "Claude and": 1,
+      "GPT-5": 1,
+      "GPT-5.4": 1,
+      "Qwen-": 1,
+      "Gemini-3.1 Pro": 1,
+      "Qwen3.5-": 1,
+      "Gemini-3": 1,
+      "DeepSeek": 1,
+      "Claude 4.6 Opus": 1
+    },
+    "by_benchmark": {
+      "XAI Question Bank": 1,
+      "DeepInsightTheorem": 1,
+      "PLUM": 1,
+      "MoIR": 1,
+      "math": 2,
+      "CrossMath": 1,
+      "HILBERT": 1,
+      "GRIFT": 1,
+      "BAGEL": 1,
+      "ChemGraph-XANES": 1,
+      "RISE": 1,
+      "JumpLoRA": 1,
+      "MMLU": 1,
+      "AtManRL": 1,
+      "GSM8K": 1,
+      "record": 1,
+      "GPTSniffer": 1,
+      "Whodunit": 1,
+      "Mind's Eye": 1,
+      "STOP": 1,
+      "AIME25": 1,
+      "SocialGrid": 1,
+      "drop": 1,
+      "KA-LogicQuery": 1,
+      "MEDLEY-BENCH": 1,
+      "ReactBench": 1,
+      "UniEditBench": 1,
+      "VQA": 1,
+      "CHOP": 1,
+      "GTA-Workflow": 1,
+      "GTA-Atomic": 1,
+      "rise": 1,
+      "LiveCodeBench": 1
+    },
+    "total_findings": 196,
+    "papers_with_findings": 100
+  }
+}
