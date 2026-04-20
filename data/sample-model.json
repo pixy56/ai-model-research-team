@@ -1,0 +1,17 @@
+{
+  "name": "GPT-4",
+  "lab": "OpenAI",
+  "release_date": "2023-03-14",
+  "architecture": "dense-transformer",
+  "parameters": "unknown",
+  "context_window": 8192,
+  "benchmarks": {
+    "mmlu": 86.4,
+    "humaneval": 67.0,
+    "mgsm": 61.3,
+    "drop": 80.9
+  },
+  "paper_url": "https://arxiv.org/abs/2303.08774",
+  "announcement_url": "https://openai.com/blog/gpt-4",
+  "tags": ["multimodal", "reasoning", "instruction-tuned"]
+}

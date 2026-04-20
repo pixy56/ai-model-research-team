@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-model-research-team.local/schemas/model-metadata.json",
+  "title": "AI Model Metadata Schema",
+  "description": "Schema for standardized AI model metadata to ensure consistent data across the research team",
+  "type": "object",
+  "required": [
+    "name",
+    "lab",
+    "release_date",
+    "architecture",
+    "parameters",
+    "context_window",
+    "benchmarks",
+    "paper_url",
+    "announcement_url"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Model name, e.g., 'GPT-4', 'Claude 3'",
+      "minLength": 1,
+      "examples": ["GPT-4", "Claude 3", "Llama 3"]
+    },
+    "lab": {
+      "type": "string",
+      "description": "Research lab or organization, e.g., 'OpenAI', 'Anthropic'",
+      "minLength": 1,
+      "examples": ["OpenAI", "Anthropic", "Meta AI", "Google DeepMind"]
+    },
+    "release_date": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO 8601 date string (YYYY-MM-DD)",
+      "examples": ["2023-03-14", "2024-01-01"]
+    },
+    "architecture": {
+      "type": "string",
+      "enum": [
+        "dense-transformer",
+        "moe",
+        "ssm",
+        "multimodal",
+        "reasoning",
+        "other"
+      ],
+      "description": "Model architecture type"
+    },
+    "parameters": {
+      "oneOf": [
+        {
+          "type": "number",
+          "description": "Number of parameters in billions",
+          "minimum": 0
+        },
+        {
+          "type": "string",
+          "enum": ["unknown"],
+          "description": "Unknown parameter count"
+        }
+      ],
+      "description": "Number of parameters in billions, or 'unknown'"
+    },
+    "context_window": {
+      "oneOf": [
+        {
+          "type": "number",
+          "description": "Context window size in tokens",
+          "minimum": 0
+        },
+        {
+          "type": "string",
+          "enum": ["unknown"],
+          "description": "Unknown context window size"
+        }
+      ],
+      "description": "Context window size in tokens, or 'unknown'"
+    },
+    "benchmarks": {
+      "type": "object",
+      "description": "Benchmark scores with benchmark names as keys",
+      "additionalProperties": {
+        "type": "number",
+        "description": "Score for the benchmark (typically 0-100)"
+      },
+      "examples": [
+        {
+          "mmlu": 85.2,
+          "humaneval": 92.5,
+          "mgsm": 78.0
+        }
+      ]
+    },
+    "paper_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL to the research paper (arXiv or other)",
+      "examples": ["https://arxiv.org/abs/2303.08774"]
+    },
+    "announcement_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL to the announcement blog post",
+      "examples": ["https://openai.com/blog/gpt-4"]
+    },
+    "tags": {
+      "type": "array",
+      "description": "Optional tags for categorization",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "examples": [
+        ["multimodal", "reasoning", "code-generation"]
+      ]
+    }
+  },
+  "additionalProperties": false,
+  "examples": [
+    {
+      "name": "GPT-4",
+      "lab": "OpenAI",
+      "release_date": "2023-03-14",
+      "architecture": "dense-transformer",
+      "parameters": "unknown",
+      "context_window": 8192,
+      "benchmarks": {
+        "mmlu": 86.4,
+        "humaneval": 67.0
+      },
+      "paper_url": "https://arxiv.org/abs/2303.08774",
+      "announcement_url": "https://openai.com/blog/gpt-4",
+      "tags": ["multimodal", "reasoning"]
+    }
+  ]
+}
