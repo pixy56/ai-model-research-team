@@ -1,0 +1,26 @@
+# LLM Wiki Configuration
+
+name: AI Model Research Wiki
+description: Knowledge base for latest AI model research
+
+structure:
+  root: .
+  categories:
+    - models
+    - benchmarks
+    - labs
+    - architectures
+    - research-findings
+
+ingestion:
+  sources:
+    - arxiv
+    - blogwatcher
+    - analysis-notebooks
+  auto_ingest: true
+  review_required: false
+
+query:
+  default_format: markdown
+  include_sources: true
+  max_results: 10
