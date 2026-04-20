@@ -1,0 +1,2237 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "created_date": "2026-04-20T04:07:42.100600",
+    "total_models": 179,
+    "taxonomy_version": "1.0",
+    "taxonomy": [
+      "dense-transformer",
+      "moe",
+      "ssm",
+      "multimodal",
+      "reasoning",
+      "diffusion"
+    ],
+    "classification_methods": [
+      "name_pattern",
+      "hf_class",
+      "default"
+    ]
+  },
+  "classifications": {
+    "MaziyarPanahi/calme-3.2-instruct-78b": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "MaziyarPanahi/calme-3.2-instruct-78b",
+      "parameters_billions": 77.965,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "MaziyarPanahi/calme-3.1-instruct-78b": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "MaziyarPanahi/calme-3.1-instruct-78b",
+      "parameters_billions": 77.965,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "dfurman/CalmeRys-78B-Orpo-v0.1": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "dfurman/CalmeRys-78B-Orpo-v0.1",
+      "parameters_billions": 77.965,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "MaziyarPanahi/calme-2.4-rys-78b": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "MaziyarPanahi/calme-2.4-rys-78b",
+      "parameters_billions": 77.965,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "huihui-ai/Qwen2.5-72B-Instruct-abliterated": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "huihui-ai/Qwen2.5-72B-Instruct-abliterated",
+      "parameters_billions": 72.706,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "Qwen/Qwen2.5-72B-Instruct": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Qwen/Qwen2.5-72B-Instruct",
+      "parameters_billions": 72.706,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "MaziyarPanahi/calme-2.1-qwen2.5-72b": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "MaziyarPanahi/calme-2.1-qwen2.5-72b",
+      "parameters_billions": 72.7,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "newsbang/Homer-v1.0-Qwen2.5-72B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "newsbang/Homer-v1.0-Qwen2.5-72B",
+      "parameters_billions": 72.706,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "ehristoforu/qwen2.5-test-32b-it": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "ehristoforu/qwen2.5-test-32b-it",
+      "parameters_billions": 32.764,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "Saxo/Linkbricks-Horizon-AI-Avengers-V1-32B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Saxo/Linkbricks-Horizon-AI-Avengers-V1-32B",
+      "parameters_billions": 32.76,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "MaziyarPanahi/calme-2.2-qwen2.5-72b": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "MaziyarPanahi/calme-2.2-qwen2.5-72b",
+      "parameters_billions": 72.7,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "fluently-lm/FluentlyLM-Prinum": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "fluently-lm/FluentlyLM-Prinum",
+      "parameters_billions": 32.764,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "JungZoona/T3Q-qwen2.5-14b-v1.0-e3": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "JungZoona/T3Q-qwen2.5-14b-v1.0-e3",
+      "parameters_billions": 14.77,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "JungZoona/T3Q-Qwen2.5-14B-Instruct-1M-e3": {
+      "architecture_type": "dense-transformer",
+      "confidence": "low",
+      "confidence_score": 0.5,
+      "evidence": [
+        "Default classification - no specific indicators found"
+      ],
+      "classification_method": "default",
+      "note": "May need manual verification",
+      "model_name": "JungZoona/T3Q-Qwen2.5-14B-Instruct-1M-e3",
+      "parameters_billions": 0.0,
+      "hf_class": "Unknown"
+    },
+    "zetasepic/Qwen2.5-32B-Instruct-abliterated-v2": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "zetasepic/Qwen2.5-32B-Instruct-abliterated-v2",
+      "parameters_billions": 32.764,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "rubenroy/Gilgamesh-72B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "rubenroy/Gilgamesh-72B",
+      "parameters_billions": 72.706,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "Sakalti/ultiima-72B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Sakalti/ultiima-72B",
+      "parameters_billions": 72.706,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "CombinHorizon/zetasepic-abliteratedV2-Qwen2.5-32B-Inst-BaseMerge-TIES": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "CombinHorizon/zetasepic-abliteratedV2-Qwen2.5-32B-Inst-BaseMerge-TIES",
+      "parameters_billions": 32.764,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "maldv/Awqward2.5-32B-Instruct": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "maldv/Awqward2.5-32B-Instruct",
+      "parameters_billions": 32.764,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "raphgg/test-2.5-72B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "raphgg/test-2.5-72B",
+      "parameters_billions": 72.706,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "shuttleai/shuttle-3": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "shuttleai/shuttle-3",
+      "parameters_billions": 72.706,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "Qwen/Qwen2.5-32B-Instruct": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Qwen/Qwen2.5-32B-Instruct",
+      "parameters_billions": 32.764,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "mistralai/Mistral-Large-Instruct-2411": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: MistralForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "mistralai/Mistral-Large-Instruct-2411",
+      "parameters_billions": 122.61,
+      "hf_class": "MistralForCausalLM"
+    },
+    "rombodawg/Rombos-LLM-V2.5-Qwen-72b": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "rombodawg/Rombos-LLM-V2.5-Qwen-72b",
+      "parameters_billions": 72.706,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "Saxo/Linkbricks-Horizon-AI-Avengers-V3-32B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Saxo/Linkbricks-Horizon-AI-Avengers-V3-32B",
+      "parameters_billions": 32.764,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "zetasepic/Qwen2.5-72B-Instruct-abliterated": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "zetasepic/Qwen2.5-72B-Instruct-abliterated",
+      "parameters_billions": 72.706,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "Saxo/Linkbricks-Horizon-AI-Avengers-V6-32B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Saxo/Linkbricks-Horizon-AI-Avengers-V6-32B",
+      "parameters_billions": 32.76,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "tanliboy/lambda-qwen2.5-32b-dpo-test": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "tanliboy/lambda-qwen2.5-32b-dpo-test",
+      "parameters_billions": 32.764,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "maldv/Qwentile2.5-32B-Instruct": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "maldv/Qwentile2.5-32B-Instruct",
+      "parameters_billions": 32.764,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "rombodawg/Rombos-LLM-V2.5-Qwen-32b": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "rombodawg/Rombos-LLM-V2.5-Qwen-32b",
+      "parameters_billions": 32.764,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "OpenBuddy/openbuddy-llama3.3-70b-v24.1-131k": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "OpenBuddy/openbuddy-llama3.3-70b-v24.1-131k",
+      "parameters_billions": 70.554,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "Saxo/Linkbricks-Horizon-AI-Avengers-V5-32B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Saxo/Linkbricks-Horizon-AI-Avengers-V5-32B",
+      "parameters_billions": 32.764,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "CombinHorizon/huihui-ai-abliterated-Qwen2.5-32B-Inst-BaseMerge-TIES": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "CombinHorizon/huihui-ai-abliterated-Qwen2.5-32B-Inst-BaseMerge-TIES",
+      "parameters_billions": 32.764,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "Saxo/Linkbricks-Horizon-AI-Avengers-V4-32B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Saxo/Linkbricks-Horizon-AI-Avengers-V4-32B",
+      "parameters_billions": 32.764,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "Sakalti/ultiima-32B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Sakalti/ultiima-32B",
+      "parameters_billions": 32.764,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "dnhkng/RYS-XLarge": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "dnhkng/RYS-XLarge",
+      "parameters_billions": 77.965,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "ssmits/Qwen2.5-95B-Instruct": {
+      "architecture_type": "ssm",
+      "confidence": "medium",
+      "confidence_score": 0.75,
+      "evidence": [
+        "Keyword match: ssm"
+      ],
+      "classification_method": "name_pattern",
+      "model_name": "ssmits/Qwen2.5-95B-Instruct",
+      "parameters_billions": 94.648,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "Sakalti/ultiima-72B-v1.5": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Sakalti/ultiima-72B-v1.5",
+      "parameters_billions": 72.706,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "tomasmcm/sky-t1-coder-32b-flash": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "tomasmcm/sky-t1-coder-32b-flash",
+      "parameters_billions": 32.764,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "meta-llama/Llama-3.3-70B-Instruct": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "meta-llama/Llama-3.3-70B-Instruct",
+      "parameters_billions": 70.554,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "FINGU-AI/RomboUltima-32B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "FINGU-AI/RomboUltima-32B",
+      "parameters_billions": 17.645,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "MaziyarPanahi/calme-2.1-rys-78b": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "MaziyarPanahi/calme-2.1-rys-78b",
+      "parameters_billions": 77.965,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "MaziyarPanahi/calme-2.3-rys-78b": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "MaziyarPanahi/calme-2.3-rys-78b",
+      "parameters_billions": 77.965,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "MaziyarPanahi/calme-2.1-qwen2-72b": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "MaziyarPanahi/calme-2.1-qwen2-72b",
+      "parameters_billions": 72.699,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "MaziyarPanahi/calme-2.2-rys-78b": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "MaziyarPanahi/calme-2.2-rys-78b",
+      "parameters_billions": 77.965,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "Undi95/MG-FinalMix-72B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Undi95/MG-FinalMix-72B",
+      "parameters_billions": 72.706,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "EVA-UNIT-01/EVA-Qwen2.5-72B-v0.2": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "EVA-UNIT-01/EVA-Qwen2.5-72B-v0.2",
+      "parameters_billions": 72.706,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "dfurman/Qwen2-72B-Orpo-v0.1": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "dfurman/Qwen2-72B-Orpo-v0.1",
+      "parameters_billions": 72.699,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "dnhkng/RYS-XLarge-base": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "dnhkng/RYS-XLarge-base",
+      "parameters_billions": 77.972,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "MaziyarPanahi/calme-2.2-qwen2-72b": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "MaziyarPanahi/calme-2.2-qwen2-72b",
+      "parameters_billions": 72.706,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "arcee-ai/Arcee-Nova": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "arcee-ai/Arcee-Nova",
+      "parameters_billions": 72.706,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "Steelskull/L3.3-MS-Nevoria-70b": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Steelskull/L3.3-MS-Nevoria-70b",
+      "parameters_billions": 70.554,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "Triangle104/Set-70b": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Triangle104/Set-70b",
+      "parameters_billions": 70.554,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "Aryanne/QwentileSwap": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Aryanne/QwentileSwap",
+      "parameters_billions": 32.764,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "wanlige/li-14b-v0.4": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "wanlige/li-14b-v0.4",
+      "parameters_billions": 14.77,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "Cran-May/tempmotacilla-cinerea-0308": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Cran-May/tempmotacilla-cinerea-0308",
+      "parameters_billions": 14.766,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "Steelskull/L3.3-Nevoria-R1-70b": {
+      "architecture_type": "reasoning",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "Pattern match: r1-"
+      ],
+      "classification_method": "name_pattern",
+      "model_name": "Steelskull/L3.3-Nevoria-R1-70b",
+      "parameters_billions": 70.554,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "Qwen/Qwen2-72B-Instruct": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Qwen/Qwen2-72B-Instruct",
+      "parameters_billions": 72.706,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "prithivMLmods/Galactic-Qwen-14B-Exp2": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "prithivMLmods/Galactic-Qwen-14B-Exp2",
+      "parameters_billions": 14.766,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "mlabonne/BigQwen2.5-52B-Instruct": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "mlabonne/BigQwen2.5-52B-Instruct",
+      "parameters_billions": 52.268,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "VAGOsolutions/Llama-3.1-SauerkrautLM-70b-Instruct": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "VAGOsolutions/Llama-3.1-SauerkrautLM-70b-Instruct",
+      "parameters_billions": 70.554,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "meta-llama/Llama-3.1-70B-Instruct": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "meta-llama/Llama-3.1-70B-Instruct",
+      "parameters_billions": 70.554,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "abacusai/Dracarys-72B-Instruct": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "abacusai/Dracarys-72B-Instruct",
+      "parameters_billions": 72.706,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "Saxo/Linkbricks-Horizon-AI-Avengers-V2-32B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Saxo/Linkbricks-Horizon-AI-Avengers-V2-32B",
+      "parameters_billions": 32.76,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "suayptalha/Lamarckvergence-14B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "suayptalha/Lamarckvergence-14B",
+      "parameters_billions": 14.766,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "suayptalha/Lix-14B-v0.1": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "suayptalha/Lix-14B-v0.1",
+      "parameters_billions": 14.766,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "MaziyarPanahi/calme-2.2-llama3.1-70b": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "MaziyarPanahi/calme-2.2-llama3.1-70b",
+      "parameters_billions": 70.554,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "Lunzima/NQLSG-Qwen2.5-14B-MegaFusion-v9.1": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Lunzima/NQLSG-Qwen2.5-14B-MegaFusion-v9.1",
+      "parameters_billions": 14.766,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "MaziyarPanahi/calme-2.3-llama3.1-70b": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "MaziyarPanahi/calme-2.3-llama3.1-70b",
+      "parameters_billions": 70.554,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "Lunzima/NQLSG-Qwen2.5-14B-MegaFusion-v9.2": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Lunzima/NQLSG-Qwen2.5-14B-MegaFusion-v9.2",
+      "parameters_billions": 14.766,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "pankajmathur/orca_mini_v8_1_70b": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "pankajmathur/orca_mini_v8_1_70b",
+      "parameters_billions": 70.554,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "rootxhacker/Apollo-70B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "rootxhacker/Apollo-70B",
+      "parameters_billions": 70.554,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "YOYO-AI/ZYH-LLM-Qwen2.5-14B-V4": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "YOYO-AI/ZYH-LLM-Qwen2.5-14B-V4",
+      "parameters_billions": 14.766,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "Lunzima/NQLSG-Qwen2.5-14B-MegaFusion-v8.7": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Lunzima/NQLSG-Qwen2.5-14B-MegaFusion-v8.7",
+      "parameters_billions": 14.766,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "Tarek07/Progenitor-V1.1-LLaMa-70B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Tarek07/Progenitor-V1.1-LLaMa-70B",
+      "parameters_billions": 70.554,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "Sao10K/70B-L3.3-Cirrus-x1": {
+      "architecture_type": "reasoning",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "Pattern match: cirrus"
+      ],
+      "classification_method": "name_pattern",
+      "model_name": "Sao10K/70B-L3.3-Cirrus-x1",
+      "parameters_billions": 70.554,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "anthracite-org/magnum-v1-72b": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "anthracite-org/magnum-v1-72b",
+      "parameters_billions": 72.706,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "alpindale/magnum-72b-v1": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "alpindale/magnum-72b-v1",
+      "parameters_billions": 72.706,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "tensopolis/lamarckvergence-14b-tensopolis-v1": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "tensopolis/lamarckvergence-14b-tensopolis-v1",
+      "parameters_billions": 14.766,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "wanlige/li-14b-v0.4-slerp0.1": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "wanlige/li-14b-v0.4-slerp0.1",
+      "parameters_billions": 14.766,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "sthenno-com/miscii-14b-0218": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "sthenno-com/miscii-14b-0218",
+      "parameters_billions": 14.766,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "marcuscedricridia/Cheng-2": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "marcuscedricridia/Cheng-2",
+      "parameters_billions": 14.766,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "Lunzima/NQLSG-Qwen2.5-14B-MegaFusion-v8": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Lunzima/NQLSG-Qwen2.5-14B-MegaFusion-v8",
+      "parameters_billions": 14.766,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "Daemontatox/Llama3.3-70B-CogniLink": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Daemontatox/Llama3.3-70B-CogniLink",
+      "parameters_billions": 70.554,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "sthenno/tempesthenno-ppo-ckpt40": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "sthenno/tempesthenno-ppo-ckpt40",
+      "parameters_billions": 14.766,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "dnhkng/RYS-Llama3.1-Large": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "dnhkng/RYS-Llama3.1-Large",
+      "parameters_billions": 81.677,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "tensopolis/virtuoso-small-v2-tensopolis-v1": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "tensopolis/virtuoso-small-v2-tensopolis-v1",
+      "parameters_billions": 14.766,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "marcuscedricridia/Cheng-2-v1.1": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "marcuscedricridia/Cheng-2-v1.1",
+      "parameters_billions": 14.766,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "hotmailuser/RombosBeagle-v2beta-MGS-32B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "hotmailuser/RombosBeagle-v2beta-MGS-32B",
+      "parameters_billions": 32.764,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "fblgit/TheBeagle-v2beta-32B-MGS": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "fblgit/TheBeagle-v2beta-32B-MGS",
+      "parameters_billions": 32.764,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "tanliboy/lambda-qwen2.5-14b-dpo-test": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "tanliboy/lambda-qwen2.5-14b-dpo-test",
+      "parameters_billions": 14.77,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "sthenno/tempesthenno-nuslerp-001": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "sthenno/tempesthenno-nuslerp-001",
+      "parameters_billions": 14.766,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "YOYO-AI/Qwen2.5-14B-1M-YOYO-V3": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "YOYO-AI/Qwen2.5-14B-1M-YOYO-V3",
+      "parameters_billions": 14.766,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "Goekdeniz-Guelmez/Josiefied-Qwen2.5-14B-Instruct-abliterated-v4": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Goekdeniz-Guelmez/Josiefied-Qwen2.5-14B-Instruct-abliterated-v4",
+      "parameters_billions": 14.77,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "Lunzima/NQLSG-Qwen2.5-14B-MegaFusion-v8.9": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Lunzima/NQLSG-Qwen2.5-14B-MegaFusion-v8.9",
+      "parameters_billions": 14.766,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "djuna/Q2.5-Veltha-14B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "djuna/Q2.5-Veltha-14B",
+      "parameters_billions": 14.766,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "paulml/ECE-ILAB-Q1": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "paulml/ECE-ILAB-Q1",
+      "parameters_billions": 72.706,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "arcee-ai/Virtuoso-Small-v2": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "arcee-ai/Virtuoso-Small-v2",
+      "parameters_billions": 14.766,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "YOYO-AI/Qwen2.5-14B-YOYO-V4-p1": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "YOYO-AI/Qwen2.5-14B-YOYO-V4-p1",
+      "parameters_billions": 14.766,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "jpacifico/Chocolatine-14B-Instruct-DPO-v1.3": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Phi3ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "jpacifico/Chocolatine-14B-Instruct-DPO-v1.3",
+      "parameters_billions": 14.66,
+      "hf_class": "Phi3ForCausalLM"
+    },
+    "glaiveai/Reflection-Llama-3.1-70B": {
+      "architecture_type": "reasoning",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "Pattern match: reflection-llama"
+      ],
+      "classification_method": "name_pattern",
+      "model_name": "glaiveai/Reflection-Llama-3.1-70B",
+      "parameters_billions": 69.5,
+      "hf_class": "LlamaForCausalLM",
+      "edge_case": "hybrid",
+      "edge_case_note": "Dense transformer with reasoning training"
+    },
+    "arcee-ai/Arcee-Blitz": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: MistralForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "arcee-ai/Arcee-Blitz",
+      "parameters_billions": 23.572,
+      "hf_class": "MistralForCausalLM"
+    },
+    "Qwen/Qwen2.5-72B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Qwen/Qwen2.5-72B",
+      "parameters_billions": 72.706,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "sakaltcommunity/novablast-preview": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "sakaltcommunity/novablast-preview",
+      "parameters_billions": 32.764,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "Sakalti/Oxyge1-33B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Sakalti/Oxyge1-33B",
+      "parameters_billions": 32.764,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "rootxhacker/Apollo_v2-32B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "rootxhacker/Apollo_v2-32B",
+      "parameters_billions": 32.764,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "Baptiste-HUVELLE-10/LeTriomphant2.2_ECE_iLAB": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Baptiste-HUVELLE-10/LeTriomphant2.2_ECE_iLAB",
+      "parameters_billions": 72.706,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "Qwen/Qwen2.5-32B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Qwen/Qwen2.5-32B",
+      "parameters_billions": 32.764,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "Daemontatox/PathFinderAi3.0": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Daemontatox/PathFinderAi3.0",
+      "parameters_billions": 32.764,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "nisten/franqwenstein-35b": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "nisten/franqwenstein-35b",
+      "parameters_billions": 34.714,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "Qwen/Qwen2-72B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Qwen/Qwen2-72B",
+      "parameters_billions": 72.706,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "Qwen/Qwen2-VL-72B-Instruct": {
+      "architecture_type": "multimodal",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "Pattern match: qwen.*vl"
+      ],
+      "classification_method": "name_pattern",
+      "model_name": "Qwen/Qwen2-VL-72B-Instruct",
+      "parameters_billions": 73.406,
+      "hf_class": "Qwen2VLForConditionalGeneration",
+      "edge_case": "hybrid",
+      "edge_case_note": "Dense transformer base with multimodal capabilities"
+    },
+    "Qwen/QwQ-32B-Preview": {
+      "architecture_type": "reasoning",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "Pattern match: qwq-"
+      ],
+      "classification_method": "name_pattern",
+      "model_name": "Qwen/QwQ-32B-Preview",
+      "parameters_billions": 32.764,
+      "hf_class": "Qwen2ForCausalLM",
+      "edge_case": "hybrid",
+      "edge_case_note": "Dense transformer with reasoning training"
+    },
+    "0-hero/Matter-0.2-7B-DPO": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: MistralForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "0-hero/Matter-0.2-7B-DPO",
+      "parameters_billions": 7.242,
+      "hf_class": "MistralForCausalLM"
+    },
+    "01-ai/Yi-1.5-34B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "01-ai/Yi-1.5-34B",
+      "parameters_billions": 34.389,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "01-ai/Yi-1.5-34B-32K": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "01-ai/Yi-1.5-34B-32K",
+      "parameters_billions": 34.389,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "01-ai/Yi-1.5-34B-Chat": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "01-ai/Yi-1.5-34B-Chat",
+      "parameters_billions": 34.389,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "01-ai/Yi-1.5-34B-Chat-16K": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "01-ai/Yi-1.5-34B-Chat-16K",
+      "parameters_billions": 34.389,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "01-ai/Yi-1.5-6B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "01-ai/Yi-1.5-6B",
+      "parameters_billions": 6.061,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "01-ai/Yi-1.5-6B-Chat": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "01-ai/Yi-1.5-6B-Chat",
+      "parameters_billions": 6.061,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "01-ai/Yi-1.5-9B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "01-ai/Yi-1.5-9B",
+      "parameters_billions": 8.829,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "01-ai/Yi-1.5-9B-32K": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "01-ai/Yi-1.5-9B-32K",
+      "parameters_billions": 8.829,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "01-ai/Yi-1.5-9B-Chat": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "01-ai/Yi-1.5-9B-Chat",
+      "parameters_billions": 8.829,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "01-ai/Yi-1.5-9B-Chat-16K": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "01-ai/Yi-1.5-9B-Chat-16K",
+      "parameters_billions": 8.829,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "01-ai/Yi-34B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "01-ai/Yi-34B",
+      "parameters_billions": 34.389,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "01-ai/Yi-34B-200K": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "01-ai/Yi-34B-200K",
+      "parameters_billions": 34.389,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "01-ai/Yi-34B-Chat": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "01-ai/Yi-34B-Chat",
+      "parameters_billions": 34.389,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "01-ai/Yi-6B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "01-ai/Yi-6B",
+      "parameters_billions": 6.061,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "01-ai/Yi-6B-200K": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "01-ai/Yi-6B-200K",
+      "parameters_billions": 6.061,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "01-ai/Yi-6B-Chat": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "01-ai/Yi-6B-Chat",
+      "parameters_billions": 6.061,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "01-ai/Yi-9B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "01-ai/Yi-9B",
+      "parameters_billions": 8.829,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "01-ai/Yi-9B-200K": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "01-ai/Yi-9B-200K",
+      "parameters_billions": 8.829,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "01-ai/Yi-Coder-9B-Chat": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "01-ai/Yi-Coder-9B-Chat",
+      "parameters_billions": 8.829,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "1-800-LLMs/Qwen-2.5-14B-Hindi": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "1-800-LLMs/Qwen-2.5-14B-Hindi",
+      "parameters_billions": 14.77,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "1-800-LLMs/Qwen-2.5-14B-Hindi-Custom-Instruct": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "1-800-LLMs/Qwen-2.5-14B-Hindi-Custom-Instruct",
+      "parameters_billions": 14.77,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "1024m/PHI-4-Hindi": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "1024m/PHI-4-Hindi",
+      "parameters_billions": 14.66,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "1024m/QWEN-14B-B100": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "1024m/QWEN-14B-B100",
+      "parameters_billions": 14.77,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "152334H/miqu-1-70b-sf": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "152334H/miqu-1-70b-sf",
+      "parameters_billions": 68.977,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "1TuanPham/T-VisStar-7B-v0.1": {
+      "architecture_type": "multimodal",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "Pattern match: visstar"
+      ],
+      "classification_method": "name_pattern",
+      "model_name": "1TuanPham/T-VisStar-7B-v0.1",
+      "parameters_billions": 7.294,
+      "hf_class": "MistralForCausalLM"
+    },
+    "1TuanPham/T-VisStar-v0.1": {
+      "architecture_type": "multimodal",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "Pattern match: visstar"
+      ],
+      "classification_method": "name_pattern",
+      "model_name": "1TuanPham/T-VisStar-v0.1",
+      "parameters_billions": 7.294,
+      "hf_class": "MistralForCausalLM"
+    },
+    "3rd-Degree-Burn/L-3.1-Science-Writer-8B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "3rd-Degree-Burn/L-3.1-Science-Writer-8B",
+      "parameters_billions": 8.03,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "3rd-Degree-Burn/Llama-3.1-8B-Squareroot": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "3rd-Degree-Burn/Llama-3.1-8B-Squareroot",
+      "parameters_billions": 8.03,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "3rd-Degree-Burn/Llama-3.1-8B-Squareroot-v1": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "3rd-Degree-Burn/Llama-3.1-8B-Squareroot-v1",
+      "parameters_billions": 8.03,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "3rd-Degree-Burn/Llama-Squared-8B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "3rd-Degree-Burn/Llama-Squared-8B",
+      "parameters_billions": 8.03,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "4season/final_model_test_v2": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "4season/final_model_test_v2",
+      "parameters_billions": 21.421,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "AALF/FuseChat-Llama-3.1-8B-Instruct-preview": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "AALF/FuseChat-Llama-3.1-8B-Instruct-preview",
+      "parameters_billions": 8.03,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "AALF/FuseChat-Llama-3.1-8B-SFT-preview": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "AALF/FuseChat-Llama-3.1-8B-SFT-preview",
+      "parameters_billions": 8.03,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "AALF/gemma-2-27b-it-SimPO-37K": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Gemma2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "AALF/gemma-2-27b-it-SimPO-37K",
+      "parameters_billions": 27.227,
+      "hf_class": "Gemma2ForCausalLM"
+    },
+    "AALF/gemma-2-27b-it-SimPO-37K-100steps": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Gemma2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "AALF/gemma-2-27b-it-SimPO-37K-100steps",
+      "parameters_billions": 27.227,
+      "hf_class": "Gemma2ForCausalLM"
+    },
+    "AELLM/gemma-2-aeria-infinity-9b": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Gemma2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "AELLM/gemma-2-aeria-infinity-9b",
+      "parameters_billions": 9.242,
+      "hf_class": "Gemma2ForCausalLM"
+    },
+    "AELLM/gemma-2-lyco-infinity-9b": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Gemma2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "AELLM/gemma-2-lyco-infinity-9b",
+      "parameters_billions": 10.159,
+      "hf_class": "Gemma2ForCausalLM"
+    },
+    "AGI-0/Art-v0-3B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "AGI-0/Art-v0-3B",
+      "parameters_billions": 3.086,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "AGI-0/Artificium-llama3.1-8B-001": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "AGI-0/Artificium-llama3.1-8B-001",
+      "parameters_billions": 8.03,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "AGI-0/smartllama3.1-8B-001": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "AGI-0/smartllama3.1-8B-001",
+      "parameters_billions": 8.03,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "AI-MO/NuminaMath-7B-CoT": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "AI-MO/NuminaMath-7B-CoT",
+      "parameters_billions": 6.91,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "AI-MO/NuminaMath-7B-TIR": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "AI-MO/NuminaMath-7B-TIR",
+      "parameters_billions": 6.91,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "AI-Sweden-Models/Llama-3-8B-instruct": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: LlamaForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "AI-Sweden-Models/Llama-3-8B-instruct",
+      "parameters_billions": 8.03,
+      "hf_class": "LlamaForCausalLM"
+    },
+    "AI-Sweden-Models/gpt-sw3-40b": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: GPT2LMHeadModel"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "AI-Sweden-Models/gpt-sw3-40b",
+      "parameters_billions": 39.927,
+      "hf_class": "GPT2LMHeadModel"
+    },
+    "AI4free/Dhanishtha": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "AI4free/Dhanishtha",
+      "parameters_billions": 1.777,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "AI4free/t2": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "AI4free/t2",
+      "parameters_billions": 7.613,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "AIDC-AI/Marco-o1": {
+      "architecture_type": "reasoning",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "Pattern match: \\bo1\\b"
+      ],
+      "classification_method": "name_pattern",
+      "model_name": "AIDC-AI/Marco-o1",
+      "parameters_billions": 7.616,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "Aashraf995/Creative-7B-nerd": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Qwen2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Aashraf995/Creative-7B-nerd",
+      "parameters_billions": 7.616,
+      "hf_class": "Qwen2ForCausalLM"
+    },
+    "Aashraf995/Gemma-Evo-10B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "HF class: Gemma2ForCausalLM"
+      ],
+      "classification_method": "hf_class",
+      "model_name": "Aashraf995/Gemma-Evo-10B",
+      "parameters_billions": 10.159,
+      "hf_class": "Gemma2ForCausalLM"
+    },
+    "paper_2604.16104": {
+      "architecture_type": "dense-transformer",
+      "confidence": "low",
+      "confidence_score": 0.6,
+      "evidence": [
+        "Research paper model - defaulting to dense transformer"
+      ],
+      "classification_method": "default",
+      "note": "Research paper model, may need manual verification",
+      "model_name": "paper_2604.16104",
+      "parameters_billions": null,
+      "hf_class": null
+    },
+    "paper_2604.16058": {
+      "architecture_type": "dense-transformer",
+      "confidence": "low",
+      "confidence_score": 0.6,
+      "evidence": [
+        "Research paper model - defaulting to dense transformer"
+      ],
+      "classification_method": "default",
+      "note": "Research paper model, may need manual verification",
+      "model_name": "paper_2604.16058",
+      "parameters_billions": null,
+      "hf_class": null
+    },
+    "paper_2604.16054": {
+      "architecture_type": "dense-transformer",
+      "confidence": "low",
+      "confidence_score": 0.6,
+      "evidence": [
+        "Research paper model - defaulting to dense transformer"
+      ],
+      "classification_method": "default",
+      "note": "Research paper model, may need manual verification",
+      "model_name": "paper_2604.16054",
+      "parameters_billions": null,
+      "hf_class": null
+    },
+    "paper_2604.16037": {
+      "architecture_type": "dense-transformer",
+      "confidence": "low",
+      "confidence_score": 0.6,
+      "evidence": [
+        "Research paper model - defaulting to dense transformer"
+      ],
+      "classification_method": "default",
+      "note": "Research paper model, may need manual verification",
+      "model_name": "paper_2604.16037",
+      "parameters_billions": null,
+      "hf_class": null
+    },
+    "GPT-OSS-20B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "medium",
+      "confidence_score": 0.7,
+      "evidence": [
+        "Model name contains 'GPT' - likely dense transformer"
+      ],
+      "classification_method": "name_pattern",
+      "model_name": "GPT-OSS-20B",
+      "parameters_billions": null,
+      "hf_class": null
+    },
+    "paper_2604.16029": {
+      "architecture_type": "dense-transformer",
+      "confidence": "low",
+      "confidence_score": 0.6,
+      "evidence": [
+        "Research paper model - defaulting to dense transformer"
+      ],
+      "classification_method": "default",
+      "note": "Research paper model, may need manual verification",
+      "model_name": "paper_2604.16029",
+      "parameters_billions": null,
+      "hf_class": null
+    },
+    "GPT-OSS-120B": {
+      "architecture_type": "dense-transformer",
+      "confidence": "medium",
+      "confidence_score": 0.7,
+      "evidence": [
+        "Model name contains 'GPT' - likely dense transformer"
+      ],
+      "classification_method": "name_pattern",
+      "model_name": "GPT-OSS-120B",
+      "parameters_billions": null,
+      "hf_class": null
+    },
+    "paper_2604.16022": {
+      "architecture_type": "dense-transformer",
+      "confidence": "low",
+      "confidence_score": 0.6,
+      "evidence": [
+        "Research paper model - defaulting to dense transformer"
+      ],
+      "classification_method": "default",
+      "note": "Research paper model, may need manual verification",
+      "model_name": "paper_2604.16022",
+      "parameters_billions": null,
+      "hf_class": null
+    },
+    "paper_2604.15994": {
+      "architecture_type": "dense-transformer",
+      "confidence": "low",
+      "confidence_score": 0.6,
+      "evidence": [
+        "Research paper model - defaulting to dense transformer"
+      ],
+      "classification_method": "default",
+      "note": "Research paper model, may need manual verification",
+      "model_name": "paper_2604.15994",
+      "parameters_billions": null,
+      "hf_class": null
+    },
+    "paper_2604.15839": {
+      "architecture_type": "dense-transformer",
+      "confidence": "low",
+      "confidence_score": 0.6,
+      "evidence": [
+        "Research paper model - defaulting to dense transformer"
+      ],
+      "classification_method": "default",
+      "note": "Research paper model, may need manual verification",
+      "model_name": "paper_2604.15839",
+      "parameters_billions": null,
+      "hf_class": null
+    },
+    "paper_2604.15830": {
+      "architecture_type": "dense-transformer",
+      "confidence": "low",
+      "confidence_score": 0.6,
+      "evidence": [
+        "Research paper model - defaulting to dense transformer"
+      ],
+      "classification_method": "default",
+      "note": "Research paper model, may need manual verification",
+      "model_name": "paper_2604.15830",
+      "parameters_billions": null,
+      "hf_class": null
+    },
+    "paper_2604.15802": {
+      "architecture_type": "dense-transformer",
+      "confidence": "low",
+      "confidence_score": 0.6,
+      "evidence": [
+        "Research paper model - defaulting to dense transformer"
+      ],
+      "classification_method": "default",
+      "note": "Research paper model, may need manual verification",
+      "model_name": "paper_2604.15802",
+      "parameters_billions": null,
+      "hf_class": null
+    },
+    "paper_2604.15760": {
+      "architecture_type": "dense-transformer",
+      "confidence": "low",
+      "confidence_score": 0.6,
+      "evidence": [
+        "Research paper model - defaulting to dense transformer"
+      ],
+      "classification_method": "default",
+      "note": "Research paper model, may need manual verification",
+      "model_name": "paper_2604.15760",
+      "parameters_billions": null,
+      "hf_class": null
+    },
+    "Gemini": {
+      "architecture_type": "multimodal",
+      "confidence": "high",
+      "confidence_score": 0.9,
+      "evidence": [
+        "Model name contains 'Gemini' - known multimodal model"
+      ],
+      "classification_method": "name_pattern",
+      "model_name": "Gemini",
+      "parameters_billions": null,
+      "hf_class": null
+    },
+    "paper_2604.15736": {
+      "architecture_type": "dense-transformer",
+      "confidence": "low",
+      "confidence_score": 0.6,
+      "evidence": [
+        "Research paper model - defaulting to dense transformer"
+      ],
+      "classification_method": "default",
+      "note": "Research paper model, may need manual verification",
+      "model_name": "paper_2604.15736",
+      "parameters_billions": null,
+      "hf_class": null
+    },
+    "paper_2604.15715": {
+      "architecture_type": "dense-transformer",
+      "confidence": "low",
+      "confidence_score": 0.6,
+      "evidence": [
+        "Research paper model - defaulting to dense transformer"
+      ],
+      "classification_method": "default",
+      "note": "Research paper model, may need manual verification",
+      "model_name": "paper_2604.15715",
+      "parameters_billions": null,
+      "hf_class": null
+    }
+  },
+  "statistics": {
+    "total_models": 179,
+    "by_architecture": {
+      "dense-transformer": 169,
+      "ssm": 1,
+      "reasoning": 5,
+      "multimodal": 4
+    },
+    "by_confidence": {
+      "high": 162,
+      "low": 14,
+      "medium": 3
+    },
+    "coverage": {
+      "high_confidence": 162,
+      "medium_confidence": 3,
+      "low_confidence": 14,
+      "high_confidence_percentage": 90.5
+    }
+  },
+  "edge_cases": [
+    {
+      "model": "glaiveai/Reflection-Llama-3.1-70B",
+      "type": "hybrid",
+      "note": "Dense transformer with reasoning training"
+    },
+    {
+      "model": "Qwen/Qwen2-VL-72B-Instruct",
+      "type": "hybrid",
+      "note": "Dense transformer base with multimodal capabilities"
+    },
+    {
+      "model": "Qwen/QwQ-32B-Preview",
+      "type": "hybrid",
+      "note": "Dense transformer with reasoning training"
+    }
+  ],
+  "methodology": {
+    "description": "Classification based on model names and HuggingFace architecture classes",
+    "confidence_scoring": {
+      "high": "0.90-0.95 - Explicit naming or authoritative source",
+      "medium": "0.70-0.85 - Strong pattern/keyword match",
+      "low": "0.50-0.70 - Default or inferred classification"
+    },
+    "edge_case_handling": "Hybrid architectures classified by primary distinguishing feature"
+  }
+}
