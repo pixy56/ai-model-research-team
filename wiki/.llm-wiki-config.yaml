@@ -1,26 +1,139 @@
 # LLM Wiki Configuration
+# Version: 1.0
+# Last Updated: 2026-04-19
 
 name: AI Model Research Wiki
-description: Knowledge base for latest AI model research
+version: "1.0"
+description: Knowledge base for latest AI model research, benchmarks, and findings
+team: AI Model Research Team
 
+# Wiki Structure
 structure:
   root: .
+  index_file: index.md
+  
+  # Main categories with their purposes
   categories:
-    - models
-    - benchmarks
-    - labs
-    - architectures
-    - research-findings
+    models:
+      path: models/
+      description: Individual model information and specifications
+      subcategories:
+        - llms
+        - multimodal
+        - reasoning
+      template: model-template.md
+      
+    benchmarks:
+      path: benchmarks/
+      description: Benchmark information, scores, and leaderboards
+      subcategories: []
+      template: benchmark-template.md
+      
+    labs:
+      path: labs/
+      description: Research lab profiles, releases, and announcements
+      subcategories: []
+      template: lab-template.md
+      
+    architectures:
+      path: architectures/
+      description: Architecture patterns, innovations, and technical details
+      subcategories:
+        - transformers
+        - moe
+        - state-space
+        - multimodal-fusion
+      template: architecture-template.md
+      
+    research-findings:
+      path: research-findings/
+      description: Key research insights, paper summaries, and discoveries
+      subcategories:
+        - papers
+        - insights
+        - trends
+      template: research-template.md
 
+# Ingestion Configuration
 ingestion:
+  enabled: true
   sources:
-    - arxiv
-    - blogwatcher
-    - analysis-notebooks
+    arxiv:
+      enabled: true
+      auto_ingest: true
+      categories: [cs.AI, cs.LG, cs.CL, cs.CV]
+      keywords:
+        - "large language model"
+        - "multimodal"
+        - "reasoning"
+        - "transformer"
+        - "mixture of experts"
+      output_dir: research-findings/papers/
+      
+    blogwatcher:
+      enabled: true
+      sources:
+        - openai.com/blog
+        - anthropic.com/news
+        - deepmind.google
+        - ai.meta.com/blog
+        - mistral.ai/news
+      output_dir: labs/
+      
+    analysis-notebooks:
+      enabled: true
+      path: ../notebooks/
+      output_dir: research-findings/insights/
+      
+  # Auto-ingestion settings
   auto_ingest: true
   review_required: false
+  
+  # Metadata extraction
+  metadata:
+    extract_authors: true
+    extract_keywords: true
+    extract_citations: true
+    
+  # Content processing
+  processing:
+    summarize_abstracts: true
+    extract_key_findings: true
+    link_to_related: true
 
+# Query Configuration
 query:
   default_format: markdown
   include_sources: true
-  max_results: 10
+  max_results: 20
+  
+  # Search settings
+  search:
+    fuzzy_matching: true
+    case_sensitive: false
+    index_tags: true
+    
+  # Output settings
+  output:
+    include_metadata: true
+    include_related: true
+    include_timestamps: true
+
+# Templates
+templates:
+  directory: templates/
+  default_author: "AI Model Research Team"
+  date_format: "%Y-%m-%d"
+  
+# Linking
+linking:
+  auto_link_terms: true
+  glossary_file: glossary.md
+  cross_reference: true
+  
+# Maintenance
+maintenance:
+  auto_archive: true
+  archive_after_days: 365
+  backup_enabled: true
+  last_updated_field: true
